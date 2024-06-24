@@ -3,12 +3,10 @@ import { Button } from "@/components/ui/button";
 import localFont from "next/font/local";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { BentoGridDemo } from "@/components/BentoGrid";
-
-export const myFont = localFont({
+const myFont = localFont({
   src: "./quayside-font.otf",
   display: "swap",
 });
-
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-center">
