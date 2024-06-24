@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-
-export const myFont = localFont({
-  src: "./quayside-font.otf",
-  display: "swap",
-});
 
 export const roboto = Roboto({
   subsets: ["latin"],

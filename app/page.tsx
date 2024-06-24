@@ -1,8 +1,13 @@
 import { cn } from "@/lib/utils";
-import { myFont, roboto } from "./layout";
 import { Button } from "@/components/ui/button";
+import localFont from "next/font/local";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { BentoGridDemo } from "@/components/BentoGrid";
+
+export const myFont = localFont({
+  src: "./quayside-font.otf",
+  display: "swap",
+});
 
 export default function Home() {
   return (
@@ -23,7 +28,7 @@ export default function Home() {
           words="From Filth to Fresh, we specialize in all kinds of car detailing services."
         /> */}
           <p className="text-white/50 text-lg">
-            From <b className="text-white">Filth</b> to{" "}
+            From <b className="text-white">Filth</b> to
             <b className="text-white">Fresh</b>, we specialize in all kinds of
             car detailing services.
           </p>
