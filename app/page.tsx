@@ -9,7 +9,8 @@ import Hero from "@/components/Hero";
 import Image from "next/image";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Services from "@/components/Services";
-import { SpecialBentoGridDemo } from "@/components/SpecialsBento";
+import { TracingBeamDemo } from "@/components/Specials";
+
 const myFont = localFont({
   src: "./quayside-font.otf",
   display: "swap",
@@ -22,9 +23,9 @@ export default function Home() {
         <About />
         <Services />
 
-        <section className="my-16 w-full flex flex-col items-center gap-5">
+        <section className="my-16 w-full  flex flex-col items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
-          <SpecialBentoGridDemo />
+          <TracingBeamDemo />
         </section>
       </div>
       {/* <section className="my-16 w-full flex flex-col items-center gap-5">
