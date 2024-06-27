@@ -35,7 +35,7 @@ export default function Home() {
           <Packages />
         </section>
       </div>
-      <section className="my-5 w-full flex flex-col items-center gap-5">
+      <section className="my-5 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
       </section>
       {/* <section className="my-16 w-full flex flex-col items-center gap-5">
