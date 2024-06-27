@@ -10,6 +10,8 @@ import Image from "next/image";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Services from "@/components/Services";
 import { TracingBeamDemo } from "@/components/Specials";
+import Packages from "@/components/Packages";
+import { InfiniteMovingCardsDemo } from "@/components/Testimonials";
 
 const myFont = localFont({
   src: "./quayside-font.otf",
@@ -23,11 +25,19 @@ export default function Home() {
         <About />
         <Services />
 
-        <section className="my-16 w-full  flex flex-col items-center gap-5">
+        <section className="my-16 w-full flex flex-col items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <TracingBeamDemo />
         </section>
+
+        <section className="my-16 w-full flex flex-col items-center gap-5">
+          <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
+          <Packages />
+        </section>
       </div>
+      <section className="my-5 w-full flex flex-col items-center gap-5">
+        <InfiniteMovingCardsDemo />
+      </section>
       {/* <section className="my-16 w-full flex flex-col items-center gap-5">
         <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
         <BentoGridDemo />
