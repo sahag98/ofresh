@@ -27,6 +27,15 @@ export default function Home() {
 
         <section className="my-16 w-full flex flex-col items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
+          <p>
+            Are you an educator, an athlete, or bought a new vehicle? At Mr. O
+            Fresh, we have special offers to show your ride some love and add
+            value to you, the customer.
+          </p>
+          <span className="font-medium">
+            Disclaimer: Verification (work/member ID, proof of purchase, etc.)
+            is required for offer to go into effect.
+          </span>
           <TracingBeamDemo />
         </section>
 

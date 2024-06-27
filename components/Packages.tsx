@@ -7,7 +7,7 @@ const Packages = () => {
   const items = [
     {
       title: "O'TRA Interior",
-      description: "All services are included.",
+      description: "Only Interior detailing",
       services: [
         "Full wipedown",
         "Full steam clean",
@@ -32,13 +32,14 @@ const Packages = () => {
     },
     {
       title: "O'TRA FRESH",
-      description: "All services are included.",
+      description: "All interior and exterior services are included.",
       services: [
         "Full wipedown",
         "Full steam clean",
         "Full shampoo scents",
         "Restoration",
         "Door/trunk treatments",
+        "And More!",
       ],
       prices: [
         {
@@ -57,7 +58,7 @@ const Packages = () => {
     },
     {
       title: "O'TRA Exterior",
-      description: "All services are included.",
+      description: "Only Exterior detailing",
       services: [
         "Foam Bath",
         "Wax",
@@ -87,11 +88,12 @@ const Packages = () => {
         <div
           key={idx}
           className={cn(
-            "border flex items-center flex-col gap-3 justify-center text-foreground rounded-md w-full p-4",
+            "border flex items-center flex-col gap-3 justify-between text-foreground rounded-md w-full p-4",
             idx === 1 && "bg-[#00232D] text-white"
           )}
         >
           <h3 className="font-bold">{item.title}</h3>
+          <h3>{item.description}</h3>
           <h4 className="font-semibold text-lg">Pricing</h4>
           <ul className="w-full list-disc flex flex-col items-center justify-between">
             {item.prices.map((price, pIdx) => (

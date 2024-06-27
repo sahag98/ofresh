@@ -59,28 +59,56 @@ const dummyContent = [
   },
   {
     title: "20% Off",
-    description: <p>Teachers, city leaders, sport exotic cars.</p>,
+    description: (
+      <p>
+        School Employees (Cert.) - (Teachers, Counselors, Admin, Special Ed.
+        Service Providers, etc.), Mayors/City Leaders, Community Volunteers, Law
+        Enforcement (Police, Sheriff, Highway Patrol, etc.), Military, Retired
+        Workers, Sports/Exotic Cars, Trucks
+      </p>
+    ),
     badge: "Changelog",
     image:
       "https://images.pexels.com/photos/5212348/pexels-photo-5212348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     title: "15% Off",
-    description: <p>School employees, college students, premium suv’s.</p>,
+    description: (
+      <p>
+        School Employees (Class.) - (Sec/clerks, Assistant Teachers, Security,
+        Coaches/Duty Aides, Grounds Workers, etc.), Librarians, College
+        Students, Firefighters, Doctors & Medical Workers, Classic Cars, Jeeps,
+        Premium SUVs
+      </p>
+    ),
     badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/5538626/pexels-photo-5538626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     title: "10% Off",
-    description: <p>lawyers, athletes, newly bought vehicles 3 months.</p>,
+    description: (
+      <p>
+        City Park Employees, Lawyers/Attorneys, Athletes (College) & Coaches
+        (K-12 and College), Federal Office Clerks, Waste Management Workers,
+        Federal Credit Union Bankers & Managers,Newly bought Vehicles (3-month
+        period), Newly Made Vehicles (5-year cycle) - Ex (2024): 2020-2024; Next
+        year Cycle (2025): 2021-2025
+      </p>
+    ),
     badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/936094/pexels-photo-936094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     title: "5% Off",
-    description: <p>retail workers, delivery drivers, gym workers.</p>,
+    description: (
+      <p>
+        Gym employees/Personal Trainers: Retail Workers, Restaurant Workers,
+        Delivery workers/drivers, Rideshare workers/drivers, Amusement Park
+        Employees, Bankers & Banking Managers
+      </p>
+    ),
     badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/6169046/pexels-photo-6169046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
