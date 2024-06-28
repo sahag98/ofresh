@@ -77,7 +77,10 @@ const Services = () => {
     },
   ];
   return (
-    <section className="my-10 no-scrollbar  w-full flex flex-col items-center gap-5">
+    <section
+      id="services"
+      className="my-10 no-scrollbar  w-full flex flex-col items-center gap-5"
+    >
       <h2 className={cn(myFont.className, "text-5xl")}>Services</h2>
       <BentoGridDemo />
       {/* <StickyScroll content={content} /> */}

@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { Calendar, Phone } from "lucide-react";
+import Link from "next/link";
 
 const myFont = localFont({
   src: "../app/quayside-font.otf",
@@ -33,6 +34,7 @@ const Hero = () => {
           car detailing services.
         </p>
         <section className="flex lg:flex-row lg:px-0 px-4 mt-5 flex-col lg:w-fit w-full items-center gap-3">
+          <Link href={"/book"}>
           <button className="relative inline-flex h-12 lg:w-fit w-3/4 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#04475a_0%,#00B4E6_50%,#04475a_100%)]" />
 
@@ -41,6 +43,7 @@ const Hero = () => {
               Book Now
             </span>
           </button>
+          </Link>
           <button className="relative lg:w-fit w-3/4  inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-primary px-3 py-1 text-base gap-3 font-bold text-foreground backdrop-blur-3xl">
               <Phone />

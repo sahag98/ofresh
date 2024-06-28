@@ -1,9 +1,6 @@
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+
 import localFont from "next/font/local";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { BentoGridDemo } from "@/components/BentoGrid";
-import { CanvasRevealEffectDemo } from "@/components/CanvasReveal";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Image from "next/image";
@@ -12,6 +9,7 @@ import Services from "@/components/Services";
 import { TracingBeamDemo } from "@/components/Specials";
 import Packages from "@/components/Packages";
 import { InfiniteMovingCardsDemo } from "@/components/Testimonials";
+import { FloatingNavDemo } from "@/components/navbar";
 
 const myFont = localFont({
   src: "./quayside-font.otf",
@@ -25,7 +23,10 @@ export default function Home() {
         <About />
         <Services />
 
-        <section className="my-16 w-full flex flex-col items-center gap-5">
+        <section
+          id="specials"
+          className="my-16 w-full flex flex-col items-center gap-5"
+        >
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
             Are you an educator, an athlete, or bought a new vehicle? At Mr. O
