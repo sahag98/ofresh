@@ -35,7 +35,8 @@ export default function Home() {
           </p>
           <span className="font-medium">
             Disclaimer: Verification (work/member ID, proof of purchase, etc.)
-            is required for offer to go into effect.
+            is required for offer to go into effect. Discounts CANNOT EXCEED
+            PAST 20%. Please call for any questions!
           </span>
           <TracingBeamDemo />
         </section>

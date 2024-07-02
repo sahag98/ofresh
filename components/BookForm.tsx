@@ -32,9 +32,11 @@ const formSchema = z.object({
   phone_number: z.string().min(5).max(20),
 });
 
-const BookForm = () => {
+const BookForm = ({ packageType }: { packageType: string }) => {
   const [selectedCarType, setSelectedCarType] = useState("Sedan");
-  const [selectedPackage, setSelectedPackage] = useState("O'TRA FRESH");
+  const [selectedPackage, setSelectedPackage] = useState(
+    packageType ? packageType : "O'TRA FRESH"
+  );
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -188,13 +190,13 @@ const BookForm = () => {
                   <h4 className="font-medium text-lg">Pricing</h4>
                   <ul className="w-full list-disc flex flex-col items-center justify-between">
                     {item.prices.map((price, pIdx) => (
-                      <>
+                      <div key={pIdx}>
                         {selectedCarType === price.carType && (
                           <span className="text-2xl font-bold">
                             ${price.price}
                           </span>
                         )}
-                      </>
+                      </div>
                       // <li
                       //   className="flex items-center justify-between w-full"
                       //   key={pIdx}

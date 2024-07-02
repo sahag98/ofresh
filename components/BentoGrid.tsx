@@ -30,27 +30,27 @@ const Skeleton = ({ image }: { image: string }) => (
 );
 const items = [
   {
-    title: "Full on Detail",
+    title: "Full on Detail (inside out)",
     description:
-      "Looking to get a nice detail for your car with some TLC? Great! At Mr. O Fresh, our auto detailing packages are a great way to keep your car looking brand new that include a range of services from exterior wash, waxing, interior cleaning, and more. Choose the package that suits your needs and let us care of the rest. Contact us today to schedule an appointment.",
+      "Does your ride need some TLC? Going on a business trip? Got a weekend date? Great! Our auto detailing packages will keep your ride looking fresh that include a foam bath, wax, interior cleaning, and more. Your date, business, and ride will thank you kindly.",
     header: <Skeleton image="/detailing.jpg" />,
   },
   {
     title: "Paint Correction",
     description:
-      "Introducing our paint protection service! Say goodbye to scratches, swirls, holograms, pigtail swirls, and scuffs on your car's paint. Our team of experts will make your car look brand new again. Trust us to protect your investment and keep your car looking its best.",
+      "Introducing our paint protection services! Say goodbye to those scratches, swirls, holograms, and those harsh sprinkler waters on your paint. Trust us to make your ride’s paint job smooth like butter.",
     header: <Skeleton image="/correction.jpeg" />,
   },
   {
     title: "Ceramic Coating",
     description:
-      "Ceramic coating is a popular solution for protecting your car's paint job. It creates a durable layer that can withstand harsh weather conditions and everyday wear and tear. With ceramic, your car will maintain its shine and brand new for years to come. Contact us today to learn more about our coating services.",
+      "Want your paint job to last longer? Tired of bird crap eating your clear coat? Allow us to introduce Ceramic Coating! This solution protects your car's paint job with a durable layer that fights off everyday wear and tear and harsh weather conditions. Say bye-bye to clingy dirt! Call to learn more.",
     header: <Skeleton image="/ceramic.jpeg" />,
   },
   {
     title: "Maintenance",
     description:
-      "Is your car in need of some TLC? Our maintenance services have got you covered. From clay treatment to undercarriage wash, engine bay cleaning to headlight restoration, iron removal to gum and tar removal, we'll have your car looking and feeling like new in no time. Trust us to take care of your ride.",
+      "From clay treatment to undercarriage wash, engine bay cleaning to headlight restoration, iron removal to gum and tar removal, we'll have your car looking and feeling like new in no time.",
     header: <Skeleton image="/engine-bay.jpeg" />,
   },
   {

@@ -12,7 +12,7 @@ const myFont = localFont({
 const Services = () => {
   const content = [
     {
-      title: "Full on Detailing",
+      title: "Full on Detailing (inside out)",
       description:
         "Looking to get a nice detail for your car with some TLC? Great! At Mr. O Fresh, our auto detailing packages are a great way to keep your car looking brand new that include a range of services from exterior wash, waxing, interior cleaning, and more. Choose the package that suits your needs and let us care of the rest. Contact us today to schedule an appointment.",
       content: (

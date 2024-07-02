@@ -27,9 +27,8 @@ const About = () => {
       >
         We specialise in all aspects of car detailing
       </h2>
-      <p className="text-center">
-        Making sure everything is done properly inside and out. Fulfilling
-        clients needs as needed.
+      <p className="text-center lg:text-xl md:text-lg text-base">
+        Detailing rides, serving the people, investing into communities!
       </p>
     </div>
   );

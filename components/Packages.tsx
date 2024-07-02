@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Check, CheckCircle, CircleCheck, Dot } from "lucide-react";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Packages = () => {
   const items = [
@@ -88,13 +89,13 @@ const Packages = () => {
         <div
           key={idx}
           className={cn(
-            "border flex items-center flex-col gap-3 justify-between text-foreground rounded-md w-full p-4",
+            "border flex items-center flex-col gap-3 justify-between hover:scale-105 transition-all duration-300 text-foreground rounded-md w-full p-4",
             idx === 1 && "bg-[#00232D] text-white"
           )}
         >
           <h3 className="font-bold">{item.title}</h3>
           <h3>{item.description}</h3>
-          <h4 className="font-semibold text-lg">Pricing</h4>
+          <h4 className="font-semibold text-lg">Pricing starting at</h4>
           <ul className="w-full list-disc flex flex-col items-center justify-between">
             {item.prices.map((price, pIdx) => (
               <li
@@ -132,12 +133,14 @@ const Packages = () => {
               </li>
             ))}
           </ul>
-          <Button
-            size={"lg"}
-            className="w-full text-foreground font-bold text-base"
-          >
-            Book Now
-          </Button>
+          <Link className="w-full" href={`/book?package_type=${item.title}`}>
+            <Button
+              size={"lg"}
+              className="w-full text-foreground font-bold text-base"
+            >
+              Book Now
+            </Button>
+          </Link>
         </div>
       ))}
     </div>
