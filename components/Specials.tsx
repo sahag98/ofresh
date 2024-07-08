@@ -60,7 +60,9 @@ const dummyContent = [
     full_list: (
       <>
         <p className="font-medium text-lg">
-          Refer a friend and both get 50% off on selected service for 1 month.
+          Offer covers any services except for paint correction and ceramic
+          coating services. Offer is only valid for 1 month from initial service
+          date.
         </p>
       </>
     ),

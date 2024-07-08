@@ -16,7 +16,7 @@ const Services = () => {
       description:
         "Looking to get a nice detail for your car with some TLC? Great! At Mr. O Fresh, our auto detailing packages are a great way to keep your car looking brand new that include a range of services from exterior wash, waxing, interior cleaning, and more. Choose the package that suits your needs and let us care of the rest. Contact us today to schedule an appointment.",
       content: (
-        <div className="h-full w-full bg-red-300 flex items-center justify-center">
+        <div className="h-full w-full flex items-center justify-center">
           <Image
             src="/detailing.jpg"
             width={1024}
@@ -79,7 +79,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="my-10 no-scrollbar  w-full flex flex-col items-center gap-5"
+      className="my-10 no-scrollbar w-full flex flex-col items-center gap-5"
     >
       <h2 className={cn(myFont.className, "text-5xl")}>Services</h2>
       <BentoGridDemo />

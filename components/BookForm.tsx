@@ -18,7 +18,8 @@ import { z } from "zod";
 import { Car, CircleCheck, Dot } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { DatePickerDemo } from "./DatePicker";
-
+import { FaTruckMonster } from "react-icons/fa6";
+import { IoCarSportSharp } from "react-icons/io5";
 const formSchema = z.object({
   car_type: z.enum(["sedan", "midsize", "truck"], {
     required_error: "You need to select a car type.",
@@ -129,18 +130,18 @@ const BookForm = ({ packageType }: { packageType: string }) => {
   const carTypes = [
     {
       title: "Sedan",
-      description: "Write description here",
-      icon: <Car size={50} />,
+      description: "Includes coupes, convertibles, sports cars",
+      icon: <IoCarSportSharp size={50} />,
     },
     {
       title: "Midsize",
-      description: "Write description here",
+      description: "Includes Jeeps, Broncos",
       icon: <Car size={50} />,
     },
     {
       title: "SUV/Truck",
-      description: "Write description here",
-      icon: <Car size={50} />,
+      description: "any 3rd road SUVs and any trucks",
+      icon: <FaTruckMonster size={50} />,
     },
   ];
 
@@ -302,7 +303,11 @@ const BookForm = ({ packageType }: { packageType: string }) => {
               )}
             />
           </div>
-          <Button className="text-base font-bold" size={"lg"} type="submit">
+          <Button
+            className="text-base text-foreground font-bold"
+            size={"lg"}
+            type="submit"
+          >
             Proceed to Payment
           </Button>
         </form>

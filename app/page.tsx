@@ -22,7 +22,10 @@ export default function Home() {
       <div className="flex flex-col w-full lg:px-48 md:px-28 px-4">
         <About />
         <Services />
-
+        <section className="my-16 w-full flex flex-col items-center gap-5">
+          <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
+          <Packages />
+        </section>
         <section
           id="specials"
           className="my-16 w-full flex flex-col items-center gap-5"
@@ -39,11 +42,6 @@ export default function Home() {
             PAST 20%. Please call for any questions!
           </span>
           <TracingBeamDemo />
-        </section>
-
-        <section className="my-16 w-full flex flex-col items-center gap-5">
-          <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
-          <Packages />
         </section>
       </div>
       <section className="my-5 overflow-hidden w-full flex flex-col items-center gap-5">

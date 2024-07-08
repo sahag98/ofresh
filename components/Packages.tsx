@@ -36,10 +36,10 @@ const Packages = () => {
       description: "All interior and exterior services are included.",
       services: [
         "Full wipedown",
-        "Full steam clean",
-        "Full shampoo scents",
-        "Restoration",
-        "Door/trunk treatments",
+        "Full shampoo",
+        "Door/Trunk jabs",
+        "Bug Removal",
+        "Clay treatment",
         "And More!",
       ],
       prices: [
