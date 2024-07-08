@@ -84,7 +84,7 @@ const Hero = () => {
         className="w-full flex items-center justify-center py-5 absolute bottom-0 z-30 bg-primary"
       >
         <h2 className="font-semibold  underline cursor-pointer">
-          Special offers for teachers, delivery drivers and more!
+          Special offers for teachers, delivery drivers, and more!
         </h2>
       </Link>
     </section>

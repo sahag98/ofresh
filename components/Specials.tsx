@@ -26,7 +26,7 @@ export function TracingBeamDemo() {
               <h2 className="lg:text-3xl md:text-2xl text-xl font-bold bg-primary rounded-md w-fit px-4 py-1 mb-4">
                 {item.title}
               </h2>
-              <p className=" text-center w-11/12">{item.description}</p>
+              <p className="text-center w-11/12">{item.description}</p>
 
               <DialogCloseButton title={item.title} fulllist={item.full_list} />
             </section>
@@ -51,22 +51,17 @@ const dummyContent = [
   {
     title: "50% Off",
     description: (
-      <>
-        <p className="font-medium text-lg">
-          Refer a friend and both get 50% off on selected service for 1 month.
-        </p>
-      </>
+      <p className="font-medium text-lg">
+        Refer a friend and both get 50% off on selected service for 1 month.
+      </p>
     ),
     full_list: (
-      <>
-        <p className="font-medium text-lg">
-          Offer covers any services except for paint correction and ceramic
-          coating services. Offer is only valid for 1 month from initial service
-          date.
-        </p>
-      </>
+      <p className="font-medium text-lg">
+        Offer covers any services except for paint correction and ceramic
+        coating services. Offer is only valid for 1 month from initial service
+        date.
+      </p>
     ),
-    badge: "React",
     image:
       "https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -86,7 +81,6 @@ const dummyContent = [
         Cars, Trucks.
       </p>
     ),
-    badge: "Changelog",
     image:
       "https://images.pexels.com/photos/5212348/pexels-photo-5212348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -105,7 +99,6 @@ const dummyContent = [
         etc.), Classic Cars, Jeeps, Premium SUVs.
       </p>
     ),
-    badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/5538626/pexels-photo-5538626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -126,7 +119,6 @@ const dummyContent = [
         (2024): 2020-2024; Next year Cycle (2025): 2021-2025.
       </p>
     ),
-    badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/936094/pexels-photo-936094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -144,7 +136,6 @@ const dummyContent = [
         Managers.
       </p>
     ),
-    badge: "Launch Week",
     image:
       "https://images.pexels.com/photos/6169046/pexels-photo-6169046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },

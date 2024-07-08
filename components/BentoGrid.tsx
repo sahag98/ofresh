@@ -12,6 +12,7 @@ export function BentoGridDemo() {
           title={item.title}
           description={item.description}
           header={item.header}
+          link={item.link}
           className={i === 3 || i === 6 ? "md:col-span-1" : ""}
         />
       ))}
@@ -34,35 +35,41 @@ const items = [
     description:
       "Does your ride need some TLC? Going on a business trip? Got a weekend date? Great! Our auto detailing packages will keep your ride looking fresh that include a foam bath, wax, interior cleaning, and more. Your date, business, and ride will thank you kindly.",
     header: <Skeleton image="/detailing.jpg" />,
+    link: "fulldetail",
   },
   {
     title: "Paint Correction",
     description:
       "Introducing our paint protection services! Say goodbye to those scratches, swirls, holograms, and those harsh sprinkler waters on your paint. Trust us to make your ride’s paint job smooth like butter.",
     header: <Skeleton image="/correction.jpeg" />,
+    link: "paint-correction",
   },
   {
     title: "Ceramic Coating",
     description:
       "Want your paint job to last longer? Tired of bird crap eating your clear coat? Allow us to introduce Ceramic Coating! This solution protects your car's paint job with a durable layer that fights off everyday wear and tear and harsh weather conditions. Say bye-bye to clingy dirt! Call to learn more.",
     header: <Skeleton image="/ceramic.jpeg" />,
+    link: "ceramic-coating",
   },
   {
     title: "Maintenance",
     description:
       "From clay treatment to undercarriage wash, engine bay cleaning to headlight restoration, iron removal to gum and tar removal, we'll have your car looking and feeling like new in no time.",
     header: <Skeleton image="/engine-bay.jpeg" />,
+    link: "maintenance",
   },
   {
     title: "Upholstery",
     description:
       "Maintain your car's fresh look and smell by regularly vacuuming and using fabric protection for upholstery. Remove pet hair with the right tools, treat leather with care, and protect it from wear. Keep the dashboard and console clean with a quick wipe down.",
     header: <Skeleton image="/upholstery.jpeg" />,
+    link: "upholstery",
   },
   {
     title: "Sanitation",
     description:
       "Looking for a professional and reliable cleaning service for your vehicle? Look no further than our team! We offer a wide range of services, including sanitation with extraction, steam cleaning, mold removal, ozone treatment, biohazard treatment, seat and carpet shampoo, baby and toddler seats, headliner cleaning, and odor elimination.",
     header: <Skeleton image="/cleaning.webp" />,
+    link: "sanitation",
   },
 ];

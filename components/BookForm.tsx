@@ -20,13 +20,15 @@ import { cn } from "@/lib/utils";
 import { DatePickerDemo } from "./DatePicker";
 import { FaTruckMonster } from "react-icons/fa6";
 import { IoCarSportSharp } from "react-icons/io5";
+import { HandleCheckout } from "@/actions/checkouAction";
+import { randomUUID } from "crypto";
+import { generateUUID } from "three/src/math/MathUtils.js";
+import Loading from "./Loading";
 const formSchema = z.object({
-  car_type: z.enum(["sedan", "midsize", "truck"], {
+  car_type: z.enum(["Sedan", "Midsize", "SUV/Truck"], {
     required_error: "You need to select a car type.",
   }),
-  package_type: z.enum(["fresh", "interior", "exterior"], {
-    required_error: "You need to select a package type.",
-  }),
+  package_type: z.string(),
   first_name: z.string().min(2).max(50),
   last_name: z.string().min(2).max(50),
   email: z.string().email(),
@@ -35,12 +37,16 @@ const formSchema = z.object({
 
 const BookForm = ({ packageType }: { packageType: string }) => {
   const [selectedCarType, setSelectedCarType] = useState("Sedan");
+  const [isLoading, setIsLoading] = useState(false);
+  const [selectedDate, setSelectedDate] = useState<Date | null>();
   const [selectedPackage, setSelectedPackage] = useState(
     packageType ? packageType : "O'TRA FRESH"
   );
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
+      car_type: "Sedan",
+      package_type: selectedPackage,
       first_name: "",
       last_name: "",
       email: "",
@@ -146,11 +152,43 @@ const BookForm = ({ packageType }: { packageType: string }) => {
   ];
 
   // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    console.log(values);
+
+    console.log("form: ", values);
+    const foundPackage = packages.find(
+      (value) => value.title === selectedPackage
+    );
+
+    const foundPrice = foundPackage?.prices.find(
+      (value) => value.carType === selectedCarType
+    );
+    console.log("found: ", foundPrice?.price);
+
+    const order = {
+      order_id: generateUUID(),
+      car_type: selectedCarType,
+      package_type: foundPackage?.title,
+      price: foundPrice?.price,
+      date: selectedDate?.toDateString(),
+    };
+
+    try {
+      setIsLoading(true);
+      await HandleCheckout({ order });
+    } catch (error) {
+    } finally {
+      setIsLoading(false);
+    }
+
+    form.reset();
+    setSelectedDate(null);
   }
+
+  // if (isLoading) {
+  //   return <Loading />;
+  // }
   return (
     <div>
       <Form {...form}>
@@ -242,7 +280,10 @@ const BookForm = ({ packageType }: { packageType: string }) => {
               Pick a date and we will contact you to agree on a set time on that
               day!
             </h2>
-            <DatePickerDemo />
+            <DatePickerDemo
+              selectedDate={selectedDate}
+              setSelectedDate={setSelectedDate}
+            />
           </div>
           <div className="space-y-2">
             <h2 className="font-bold text-2xl">Your Information</h2>
@@ -262,7 +303,7 @@ const BookForm = ({ packageType }: { packageType: string }) => {
             />
             <FormField
               control={form.control}
-              name="first_name"
+              name="last_name"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Last name</FormLabel>
@@ -276,7 +317,7 @@ const BookForm = ({ packageType }: { packageType: string }) => {
             />
             <FormField
               control={form.control}
-              name="first_name"
+              name="email"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Email</FormLabel>
@@ -290,7 +331,7 @@ const BookForm = ({ packageType }: { packageType: string }) => {
             />
             <FormField
               control={form.control}
-              name="first_name"
+              name="phone_number"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Phone number</FormLabel>
@@ -304,11 +345,12 @@ const BookForm = ({ packageType }: { packageType: string }) => {
             />
           </div>
           <Button
+            disabled={!selectedDate || isLoading ? true : false}
             className="text-base text-foreground font-bold"
             size={"lg"}
             type="submit"
           >
-            Proceed to Payment
+            {isLoading ? "Please wait..." : "Proceed to Payment"}
           </Button>
         </form>
       </Form>

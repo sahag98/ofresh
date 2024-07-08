@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Check, CheckCircle, CircleCheck, Dot } from "lucide-react";
+import { Check, CheckCircle, CircleCheck, Dot, Timer } from "lucide-react";
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
@@ -8,13 +8,14 @@ const Packages = () => {
   const items = [
     {
       title: "O'TRA Interior",
-      description: "Only Interior detailing",
+      description: "Only Interior detailing.",
+
       services: [
-        "Full wipedown",
-        "Full steam clean",
-        "Full shampoo scents",
-        "Oder elimination",
-        "Headliner restore",
+        "Full vacuum",
+        "full wipedown",
+        "Full shampoo",
+        "Windows",
+        "Scents/odors elimination",
       ],
       prices: [
         {
@@ -30,6 +31,7 @@ const Packages = () => {
           price: 210,
         },
       ],
+      time: "2-3 hrs",
     },
     {
       title: "O'TRA FRESH",
@@ -56,15 +58,17 @@ const Packages = () => {
           price: 400,
         },
       ],
+      time: "5-6 hrs",
     },
     {
       title: "O'TRA Exterior",
-      description: "Only Exterior detailing",
+      description: "Only Exterior detailing.",
       services: [
         "Foam Bath",
-        "Wax",
-        "Wheel Shine",
-        "Door trunk jambs",
+        "Bug Removal",
+        "Wheels w/dressing",
+        "Windows",
+        "Door/trunk jams",
         "Clay treatment",
       ],
       prices: [
@@ -81,6 +85,7 @@ const Packages = () => {
           price: 190,
         },
       ],
+      time: "2-3 hrs",
     },
   ];
   return (
@@ -89,13 +94,20 @@ const Packages = () => {
         <div
           key={idx}
           className={cn(
-            "border flex items-center flex-col gap-3 justify-between hover:scale-105 transition-all duration-300 text-foreground rounded-md w-full p-4",
+            "border flex flex-col gap-3 justify-between hover:scale-105 transition-all duration-300 text-foreground rounded-md w-full p-4",
             idx === 1 && "bg-[#00232D] text-white"
           )}
         >
-          <h3 className="font-bold">{item.title}</h3>
-          <h3>{item.description}</h3>
-          <h4 className="font-semibold text-lg">Pricing starting at</h4>
+          <section className="flex w-full items-center justify-between">
+            <h3 className="font-bold text-2xl">{item.title}</h3>
+            <div className="flex items-center justify-between gap-2 rounded-lg">
+              <Timer />
+              {item.time}
+            </div>
+          </section>
+
+          <p>{item.description}</p>
+          <h4 className="font-semibold text-lg">Pricing starting at:</h4>
           <ul className="w-full list-disc flex flex-col items-center justify-between">
             {item.prices.map((price, pIdx) => (
               <li

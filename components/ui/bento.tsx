@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Button } from "./button";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -25,12 +26,14 @@ export const BentoGridItem = ({
   title,
   description,
   header,
+  link,
   icon,
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   header?: React.ReactNode;
+  link: string;
   icon?: React.ReactNode;
 }) => {
   return (
@@ -49,7 +52,9 @@ export const BentoGridItem = ({
         <div className="font-sans mb-2 font-normal text-white  dark:text-neutral-300">
           {description}
         </div>
-        <Button variant={"secondary"}>Learn More</Button>
+        <Link href={`/services/${link}`}>
+          <Button variant={"secondary"}>Learn More</Button>
+        </Link>
       </div>
     </div>
   );
