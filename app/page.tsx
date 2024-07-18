@@ -10,6 +10,7 @@ import { TracingBeamDemo } from "@/components/Specials";
 import Packages from "@/components/Packages";
 import { InfiniteMovingCardsDemo } from "@/components/Testimonials";
 import { FloatingNavDemo } from "@/components/navbar";
+import AccordionSection from "@/components/Accordion";
 
 const myFont = localFont({
   src: "./quayside-font.otf",
@@ -22,8 +23,11 @@ export default function Home() {
       <div className="flex flex-col w-full lg:px-48 md:px-28 px-4">
         <About />
         <Services />
-        <section className="my-16 w-full flex flex-col items-center gap-5">
+        <section className="w-full h-screen justify-center flex flex-col items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
+          <p className="text-lg">
+            Here is the available packages I offer to satisfy your car's needs.
+          </p>
           <Packages />
         </section>
         <section
@@ -33,7 +37,7 @@ export default function Home() {
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
             Are you an educator, an athlete, or bought a new vehicle? At Mr. O
-            Fresh, we have special offers to show your ride some love and add
+            Fresh, I have special offers to show your ride some love and add
             value to you, the customer.
           </p>
           <span className="font-medium">
@@ -44,9 +48,11 @@ export default function Home() {
           <TracingBeamDemo />
         </section>
       </div>
+      <AccordionSection />
       <section className="my-5 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
       </section>
+
       {/* <section className="my-16 w-full flex flex-col items-center gap-5">
         <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
         <BentoGridDemo />

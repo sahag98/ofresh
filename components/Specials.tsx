@@ -74,11 +74,10 @@ const dummyContent = [
     ),
     full_list: (
       <p className="font-medium text-lg">
-        Teachers, Community Volunteers, Police Officers, school Employees
-        (Cert.) - (Counselors, Admin, Special Ed. Service Providers, etc.),
-        Mayors/City Leaders, Community Volunteers, Law Enforcement (Police,
-        Sheriff, Highway Patrol, etc.), Military, Retired Workers, Sports/Exotic
-        Cars, Trucks.
+        Teachers, Community Volunteers, Police Officers, School/Higher
+        Institution Employees, Mayors/City Leaders, Community Volunteers, Law
+        Enforcement,, Military, Retired Workers, Sports/Exotic Cars, Trucks,
+        luxury vehicles
       </p>
     ),
     image:
@@ -94,9 +93,9 @@ const dummyContent = [
     full_list: (
       <p className="font-medium text-lg">
         College Students, Librarians, Firefighters, Doctors & Medical Workers,
-        Gym employees/Personal Trainers,School Employees (Class.) - (Sec/clerks,
-        Assistant Teachers, Security, Coaches/Duty Aides, Grounds Workers,
-        etc.), Classic Cars, Jeeps, Premium SUVs.
+        Gym employees/Personal Trainers, electric vehicles (including Tesla),
+        Classic Cars, Jeeps, Premium SUVs, Newly Made Vehicles (5-year cycle) -
+        Ex (2020): 2020-2025; Next year Cycle (2024): 2024-2029
       </p>
     ),
     image:
@@ -133,7 +132,7 @@ const dummyContent = [
       <p className="font-medium text-lg">
         Rideshare workers/drivers, Retail Workers, Delivery workers/drivers,
         Restaurant Workers, Amusement Park Employees, Bankers & Banking
-        Managers.
+        Managers, Warehouse workers.
       </p>
     ),
     image:

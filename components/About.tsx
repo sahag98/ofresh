@@ -3,6 +3,7 @@ import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const myFont = localFont({
   src: "../app/quayside-font.otf",
@@ -11,10 +12,10 @@ const myFont = localFont({
 
 const About = () => {
   return (
-    <div className="flex my-10 items-center py-24 justify-center flex-col gap-5 w-full">
+    <div className="flex my-10 items-center h-screen py-24 justify-center flex-col gap-5 w-full">
       <Image
         alt="logo"
-        className="lg:w-1/4 md:w-1/4 w-1/2"
+        className="md:w-1/3 w-3/4"
         src={"/logo-nobg.png"}
         width={612}
         height={402}
@@ -25,11 +26,16 @@ const About = () => {
           "lg:text-8xl md:text-6xl text-4xl text-center"
         )}
       >
-        We specialize in all aspects of car detailing
+        I specialize in all aspects of car detailing
       </h2>
       <p className="text-center lg:text-xl md:text-lg text-base">
         Detailing rides, serving the people, investing into communities!
       </p>
+      <Link href={"/about"}>
+        <Button className="text-lg" variant={"link"}>
+          Learn More
+        </Button>
+      </Link>
     </div>
   );
 };

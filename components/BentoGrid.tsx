@@ -35,7 +35,7 @@ const items = [
     description:
       "Does your ride need some TLC? Going on a business trip? Got a weekend date? Great! Our auto detailing packages will keep your ride looking fresh that include a foam bath, wax, interior cleaning, and more. Your date, business, and ride will thank you kindly.",
     header: <Skeleton image="/detailing.jpg" />,
-    link: "fulldetail",
+    link: "detail",
   },
   {
     title: "Paint Correction",

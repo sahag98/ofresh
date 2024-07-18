@@ -30,8 +30,8 @@ const Hero = () => {
         /> */}
         <p className="text-white/70 text-center w-4/5 lg:w-full lg:text-lg">
           From <b className="text-white">Filth</b> to
-          <b className="text-white"> Fresh</b>, we specialize in all kinds of
-          car detailing services.
+          <b className="text-white"> Fresh</b>, I specialize in all kinds of car
+          detailing services.
         </p>
         <section className="flex lg:flex-row lg:px-0 px-4 mt-5 flex-col lg:w-fit w-full items-center gap-3">
           <Link className="lg:w-fit w-3/4" href={"/book"}>
