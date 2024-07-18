@@ -26,7 +26,8 @@ export default function Home() {
         <section className="w-full h-screen justify-center flex flex-col items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
           <p className="text-lg">
-            Here is the available packages I offer to satisfy your car's needs.
+            Here is the available packages I offer to satisfy your car&apos;s
+            needs.
           </p>
           <Packages />
         </section>
@@ -52,11 +53,6 @@ export default function Home() {
       <section className="my-5 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
       </section>
-
-      {/* <section className="my-16 w-full flex flex-col items-center gap-5">
-        <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
-        <BentoGridDemo />
-      </section> */}
     </main>
   );
 }
