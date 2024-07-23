@@ -61,7 +61,7 @@ const AccordionSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col bg-primary py-5 items-center w-full gap-3 lg:px-48 md:px-28 px-4">
+    <div className="flex flex-col z-20 bg-primary py-5 items-center w-full gap-3 lg:px-48 md:px-28 px-4">
       <h2 className={cn(myFont.className, "text-5xl ")}>FAQ</h2>
       <p className="text-lg">Here are some frequently asked questions.</p>
       <div className="flex items-center pb-5 justify-between gap-8 w-full">

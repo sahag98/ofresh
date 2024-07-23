@@ -50,7 +50,7 @@ export default function Home() {
         </section>
       </div>
       <AccordionSection />
-      <section className="my-5 overflow-hidden w-full flex flex-col items-center gap-5">
+      <section className="my-5 z-10 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
       </section>
     </main>
