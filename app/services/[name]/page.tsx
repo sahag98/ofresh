@@ -4,6 +4,9 @@ import React from "react";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft } from "lucide-react";
 const myFont = localFont({
   src: "../../quayside-font.otf",
   display: "swap",
@@ -16,10 +19,16 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
     throw new Error("You shouldn't be here...");
   }
   return (
-    <div className="flex min-h-screen py-10 lg:px-48 md:px-28 px-4">
+    <div className="flex flex-col gap-5 min-h-screen py-10 lg:px-48 md:px-28 px-4">
+      <Link href={"/"}>
+        <Button className="flex items-center gap-3">
+          <ArrowLeft />
+          Back to Home
+        </Button>
+      </Link>
       <div className="flex flex-col gap-3 w-full">
         <h1 className={cn(myFont.className, "text-5xl")}>{service?.title}</h1>
-        <h2 className="font-semibold text-lg">{service?.question}</h2>
+        <h2 className="font-semibold text-xl">{service?.question}</h2>
         <p>{service?.answer}</p>
         <h3 className="font-medium text-lg">1. {service.subheading1}</h3>
         <p>{service.subheading1description}</p>
@@ -91,7 +100,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
             </li>
           ))}
         </ul>
-        <h2 className="font-semibold text-lg">Process</h2>
+        <h2 className="font-semibold text-xl">Process</h2>
         <ul className="list-disc">
           {service.process.map((process) => (
             <li key={process.title}>

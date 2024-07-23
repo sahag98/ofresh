@@ -8,7 +8,7 @@ import { redirect } from "next/navigation";
 // import { CartItem } from "@/app/addToCart";
 
 export async function HandleCheckout({ order }: { order: any }) {
-  const { car_type, package_type, price, date, order_id } = order;
+  const { car_type, package_type, price, order_id } = order;
   //   const { products, orderId, shippingFee } = await req.json();
 
   if (!order) {
@@ -21,7 +21,7 @@ export async function HandleCheckout({ order }: { order: any }) {
     price_data: {
       currency: "USD",
       product_data: {
-        description: car_type + " on " + date,
+        description: car_type,
         name: package_type,
         images: [
           "https://cdn.glitch.global/8b3fcaf4-93b4-418a-b1c5-5adbc2870c14/logo.png?v=1720477997493",

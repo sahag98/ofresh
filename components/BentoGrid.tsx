@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="w-full ">
+    <BentoGrid className="w-full">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -36,20 +36,6 @@ const items = [
       "Does your ride need some TLC? Going on a business trip? Got a weekend date? Great! Our auto detailing packages will keep your ride looking fresh that include a foam bath, wax, interior cleaning, and more. Your date, business, and ride will thank you kindly.",
     header: <Skeleton image="/detailing.jpg" />,
     link: "detail",
-  },
-  {
-    title: "Paint Correction",
-    description:
-      "Introducing our paint protection services! Say goodbye to those scratches, swirls, holograms, and those harsh sprinkler waters on your paint. Trust us to make your ride’s paint job smooth like butter.",
-    header: <Skeleton image="/correction.jpeg" />,
-    link: "paint-correction",
-  },
-  {
-    title: "Ceramic Coating",
-    description:
-      "Want your paint job to last longer? Tired of bird crap eating your clear coat? Allow us to introduce Ceramic Coating! This solution protects your car's paint job with a durable layer that fights off everyday wear and tear and harsh weather conditions. Say bye-bye to clingy dirt! Call to learn more.",
-    header: <Skeleton image="/ceramic.jpeg" />,
-    link: "ceramic-coating",
   },
   {
     title: "Maintenance",
