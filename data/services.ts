@@ -1,7 +1,7 @@
 export const services = [
   {
     link: "detail",
-    title: "Full Detailing",
+    title: "Full on Detail",
     question: "Why get the service?",
     answer:
       "Owning a vehicle is a significant investment, and maintaining its condition goes beyond regular maintenance and occasional washes. Auto detailing services offer a comprehensive approach to keeping your car in pristine condition, both inside and out. Here’s why investing in professional detail services is essential:",
