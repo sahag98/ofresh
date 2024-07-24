@@ -40,7 +40,7 @@ const GalleryPage = () => {
         beforeOutsideImage={beforeInsideImage}
         afterOutsideImage={afterInsideImage}
       />
-      <PrallaxImages />
+      {/* <PrallaxImages /> */}
     </main>
   );
 };
