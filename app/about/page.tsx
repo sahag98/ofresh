@@ -23,7 +23,7 @@ const AboutPage = () => {
       <h1 className={cn(myFont.className, "text-5xl text-center")}>About</h1>
       <div className="flex lg:flex-row flex-col-reverse items-center gap-5 my-10 justify-between">
         <section className="lg:w-1/2 w-full space-y-3">
-          <h2 className="font-semibold text-xl">Hi! I&apos;m Osei Mireku,</h2>
+          <h2 className="font-semibold text-2xl">Hi! I&apos;m Osei Mireku,</h2>
           <p>
             the man behind Mr. O Fresh. I&apos;ve started this business with a
             few things in mind: showing love to the rides of the people, serving
@@ -40,10 +40,10 @@ const AboutPage = () => {
         </section>
         <Image
           alt="image of owner"
-          src={"/logo.png"}
+          src={"/about.jpeg"}
           width={5101}
           height={3301}
-          className="lg:w-1/2  w-full rounded-lg"
+          className="lg:w-1/2 aspect-square object-cover w-full rounded-lg"
         />
       </div>
       <p className={cn(myFont.className, "text-5xl text-center")}>
