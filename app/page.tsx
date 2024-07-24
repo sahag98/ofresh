@@ -23,7 +23,7 @@ export default function Home() {
       <div className="flex flex-col w-full lg:px-48 md:px-28 px-4">
         <About />
         <Services />
-        <section className="w-full h-screen justify-center flex flex-col py-10 items-center gap-5">
+        <section className="w-full h-screen justify-center flex flex-col my-10 items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
           <p className="text-lg">
             Here is the available packages I offer to satisfy your car&apos;s
@@ -33,7 +33,7 @@ export default function Home() {
         </section>
         <section
           id="specials"
-          className="my-16 w-full flex flex-col items-center gap-5"
+          className="my-16 mt-10 w-full flex flex-col items-center gap-5"
         >
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
