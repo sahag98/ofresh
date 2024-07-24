@@ -34,7 +34,7 @@ const Hero = () => {
           detailing services.
         </p>
         <section className="flex lg:flex-row lg:px-0 px-4 mt-5 flex-col lg:w-fit w-full items-center gap-3">
-          <Link className="lg:w-fit w-3/4" href={"/book"}>
+          <Link className="lg:w-fit w-1/2" href={"/book"}>
             <button className="relative inline-flex h-12 w-full overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#04475a_0%,#00B4E6_50%,#04475a_100%)]" />
 
@@ -44,7 +44,7 @@ const Hero = () => {
               </span>
             </button>
           </Link>
-          <Link className="lg:w-fit w-3/4" href={"tel:+1 307-278-1784"}>
+          <Link className="lg:w-fit w-1/2" href={"tel:+1 307-278-1784"}>
             <button className="relative w-full inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-primary px-3 py-1 text-base gap-3 font-bold text-foreground backdrop-blur-3xl">
                 <Phone />
@@ -83,7 +83,7 @@ const Hero = () => {
         href={"#specials"}
         className="w-full flex items-center justify-center py-5 absolute bottom-0 z-30 bg-primary"
       >
-        <h2 className="font-semibold  underline cursor-pointer">
+        <h2 className="font-semibold md:text-base text-sm underline cursor-pointer">
           Special offers for teachers, delivery drivers, and more!
         </h2>
       </Link>
