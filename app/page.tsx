@@ -33,7 +33,7 @@ export default function Home() {
         </section>
         <section
           id="specials"
-          className="my-16 mt-10 w-full flex flex-col items-center gap-5"
+          className="my-16 mt-40 w-full flex flex-col items-center gap-5"
         >
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
