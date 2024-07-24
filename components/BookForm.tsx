@@ -41,7 +41,7 @@ const BookForm = () => {
           hideGdprBanner: true,
           hideLandingPageDetails: true,
         }}
-        url="https://calendly.com/arzsahag"
+        url="https://calendly.com/mrofresh"
       />
     </div>
   );
