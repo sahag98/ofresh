@@ -64,13 +64,7 @@ const PaymentForm = ({ accessCode }) => {
     {
       title: "O'TRA Interior",
       description: "Only Interior detailing",
-      services: [
-        "Full vacuum",
-        "full wipedown",
-        "Full shampoo",
-        "Windows",
-        "Scents/odors elimination",
-      ],
+      services: ["Full vacuum", "full wipedown", "Full shampoo", "Windows"],
       prices: [
         {
           carType: "Sedan",
