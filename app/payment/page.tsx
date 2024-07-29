@@ -16,7 +16,7 @@ const myFont = localFont({
 const PaymentPage = () => {
   console.log("payment code: ", process.env.PAYMENT_ACCESS);
   return (
-    <div className="min-h-screen lg:px-48 md:px-28 py-5 px-4 space-y-10 w-full">
+    <div className="min-h-screen lg:px-48 md:px-10 py-5 px-4 space-y-10 w-full">
       <Link href={"/"}>
         <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />

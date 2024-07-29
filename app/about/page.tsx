@@ -13,7 +13,7 @@ const myFont = localFont({
 
 const AboutPage = () => {
   return (
-    <div className="h-screen flex justify-between flex-col py-10 lg:px-48 md:px-28 px-4">
+    <div className="min-h-screen flex flex-col py-10 lg:px-48 md:px-10 px-4">
       <Link href={"/"}>
         <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
@@ -22,7 +22,7 @@ const AboutPage = () => {
       </Link>
       <h1 className={cn(myFont.className, "text-5xl text-center")}>About</h1>
       <div className="flex lg:flex-row flex-col-reverse items-center gap-5 my-10 justify-between">
-        <section className="lg:w-1/2 w-full space-y-3">
+        <section className="lg:w-1/2 w-full space-y-1">
           <h2 className="font-semibold text-2xl">Hi! I&apos;m Osei Mireku,</h2>
           <p>
             the man behind Mr. O Fresh. I&apos;ve started this business with a
