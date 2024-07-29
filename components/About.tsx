@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { ArrowDown, ArrowDownWideNarrow, ChevronDown } from "lucide-react";
 
 const myFont = localFont({
   src: "../app/quayside-font.otf",
@@ -12,7 +13,7 @@ const myFont = localFont({
 
 const About = () => {
   return (
-    <div className="flex my-10 items-center h-screen py-24 justify-center flex-col gap-5 w-full">
+    <div className="flex relative items-center h-screen justify-center flex-col gap-5 w-full">
       <Image
         alt="logo"
         className="md:w-1/3 w-3/4"
@@ -36,6 +37,7 @@ const About = () => {
           Learn More
         </Button>
       </Link>
+      <ChevronDown className="absolute animate-bounce bottom-0" size={50} />
     </div>
   );
 };

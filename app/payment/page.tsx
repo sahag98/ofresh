@@ -14,10 +14,11 @@ const myFont = localFont({
 });
 
 const PaymentPage = () => {
+  console.log("payment code: ", process.env.PAYMENT_ACCESS);
   return (
     <div className="min-h-screen lg:px-48 md:px-28 py-5 px-4 space-y-10 w-full">
       <Link href={"/"}>
-        <Button className="flex items-center gap-3">
+        <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
           Back to Home
         </Button>
@@ -25,7 +26,7 @@ const PaymentPage = () => {
       <h1 className={cn("font-bold text-center text-7xl", myFont.className)}>
         Payment
       </h1>
-      <PaymentForm />
+      <PaymentForm accessCode={process.env.PAYMENT_ACCESS} />
     </div>
   );
 };

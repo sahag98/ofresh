@@ -16,7 +16,7 @@ const BookingPage = () => {
   return (
     <div className="min-h-screen lg:px-48 md:px-28 py-5 px-4 space-y-10 w-full">
       <Link href={"/"}>
-        <Button className="flex items-center gap-3">
+        <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
           Back to Home
         </Button>

@@ -21,7 +21,7 @@ const GalleryPage = () => {
   return (
     <main className="min-h-screen lg:px-48 space-y-5 md:px-16 py-10 px-4">
       <Link href={"/"}>
-        <Button className="flex items-center gap-3">
+        <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
           Back to Home
         </Button>

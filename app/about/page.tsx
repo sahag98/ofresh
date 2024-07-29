@@ -15,7 +15,7 @@ const AboutPage = () => {
   return (
     <div className="h-screen flex justify-between flex-col py-10 lg:px-48 md:px-28 px-4">
       <Link href={"/"}>
-        <Button className="flex items-center gap-3">
+        <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
           Back to Home
         </Button>

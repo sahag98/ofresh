@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="my-40 no-scrollbar w-full flex flex-col items-center gap-5"
+      className="my-20 no-scrollbar w-full flex flex-col items-center gap-5"
     >
       <h2 className={cn(myFont.className, "text-5xl")}>Services</h2>
       <BentoGridDemo />

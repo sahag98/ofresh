@@ -26,7 +26,7 @@ export function TracingBeamDemo() {
               <h2 className="lg:text-3xl md:text-2xl text-xl font-bold bg-primary rounded-md w-fit px-4 py-1 mb-4">
                 {item.title}
               </h2>
-              <p className="text-center w-11/12">{item.description}</p>
+              {item.description}
 
               <DialogCloseButton title={item.title} fulllist={item.full_list} />
             </section>
@@ -51,15 +51,14 @@ const dummyContent = [
   {
     title: "50% Off",
     description: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         Refer a friend and both get 50% off on selected service for 1 month.
       </p>
     ),
     full_list: (
       <p className="font-medium text-lg">
-        Offer covers any services except for paint correction and ceramic
-        coating services. Offer is only valid for 1 month from initial service
-        date.
+        Offer covers any services and is only valid for 1 month from initial
+        service date.
       </p>
     ),
     image:
@@ -68,7 +67,7 @@ const dummyContent = [
   {
     title: "20% Off",
     description: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         Teachers, Community Volunteers, Police Officers
       </p>
     ),
@@ -86,7 +85,7 @@ const dummyContent = [
   {
     title: "15% Off",
     description: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         College Students, Librarians, Firefighters
       </p>
     ),
@@ -104,7 +103,7 @@ const dummyContent = [
   {
     title: "10% Off",
     description: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         Athletes (College) & Coaches (K-12 and College), Gym memberships, City
         Park Employees
       </p>
@@ -124,12 +123,12 @@ const dummyContent = [
   {
     title: "5% Off",
     description: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         Rideshare Drivers, Retail Workers, Delivery Drivers
       </p>
     ),
     full_list: (
-      <p className="font-medium text-lg">
+      <p className="font-medium text-center w-11/12 text-lg">
         Rideshare workers/drivers, Retail Workers, Delivery workers/drivers,
         Restaurant Workers, Amusement Park Employees, Bankers & Banking
         Managers, Warehouse workers.

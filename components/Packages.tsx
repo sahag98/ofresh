@@ -9,7 +9,6 @@ const Packages = () => {
     {
       title: "O'TRA Interior",
       description: "Only Interior detailing.",
-
       services: [
         "Full vacuum",
         "full wipedown",

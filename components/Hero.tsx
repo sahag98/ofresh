@@ -19,7 +19,7 @@ const Hero = () => {
         <h1
           className={cn(
             myFont.className,
-            "lg:text-8xl md:text-7xl text-6xl rounded-md px-4 text-primary "
+            "lg:text-9xl md:text-8xl text-6xl rounded-md px-4 text-primary "
           )}
         >
           Mr. O Fresh

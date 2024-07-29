@@ -89,7 +89,7 @@ export const services = [
       {
         title: "Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it(if you’re available).",
+          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
       },
       {
         title: "Follow Up Maintenance",
@@ -116,7 +116,7 @@ export const services = [
       {
         title: "Enhanced Shine",
         description:
-          "TA good wax job brings out the depth and richness of your car’s color, giving it a glossy, showroom-like finish.",
+          "A good wax job brings out the depth and richness of your car’s color, giving it a glossy, showroom-like finish.",
       },
       {
         title: "Ease of Cleaning",
@@ -223,12 +223,7 @@ export const services = [
       {
         title: "Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it(if you’re available).",
-      },
-      {
-        title: "Curing and Final Inspection",
-        description:
-          " I allow the ceramic coating to cure properly, following the manufacturer’s recommendations. Once cured, I conduct a final inspection to ensure that the coating has been applied correctly and meets our high standards",
+          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
       },
     ],
   },
@@ -271,7 +266,7 @@ export const services = [
       {
         title: "Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it(if you’re available).",
+          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
       },
     ],
   },
@@ -309,7 +304,7 @@ export const services = [
       {
         title: "Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it(if you’re available).",
+          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
       },
     ],
   },

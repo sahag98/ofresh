@@ -38,7 +38,7 @@ const formSchema = z.object({
   // phone_number: z.string().min(5).max(20),
 });
 
-const PaymentForm = () => {
+const PaymentForm = ({ accessCode }) => {
   const [selectedCarType, setSelectedCarType] = useState("Sedan");
   const [isLoading, setIsLoading] = useState(false);
   const dateRef = useRef<LegacyRef<InlineWidget> | undefined>();
@@ -65,11 +65,11 @@ const PaymentForm = () => {
       title: "O'TRA Interior",
       description: "Only Interior detailing",
       services: [
-        "Full wipedown",
-        "Full steam clean",
-        "Full shampoo scents",
-        "Oder elimination",
-        "Headliner restore",
+        "Full vacuum",
+        "full wipedown",
+        "Full shampoo",
+        "Windows",
+        "Scents/odors elimination",
       ],
       prices: [
         {
@@ -81,7 +81,7 @@ const PaymentForm = () => {
           price: 185,
         },
         {
-          carType: "SUV/Truck",
+          carType: "SUV/Trucks",
           price: 210,
         },
       ],
@@ -91,10 +91,10 @@ const PaymentForm = () => {
       description: "All interior and exterior services are included.",
       services: [
         "Full wipedown",
-        "Full steam clean",
-        "Full shampoo scents",
-        "Restoration",
-        "Door/trunk treatments",
+        "Full shampoo",
+        "Door/Trunk jabs",
+        "Bug Removal",
+        "Clay treatment",
         "And More!",
       ],
       prices: [
@@ -107,7 +107,7 @@ const PaymentForm = () => {
           price: 350,
         },
         {
-          carType: "SUV/Truck",
+          carType: "SUV/Trucks",
           price: 400,
         },
       ],
@@ -117,9 +117,10 @@ const PaymentForm = () => {
       description: "Only Exterior detailing",
       services: [
         "Foam Bath",
-        "Wax",
-        "Wheel Shine",
-        "Door trunk jambs",
+        "Bug Removal",
+        "Wheels w/dressing",
+        "Windows",
+        "Door/trunk jams",
         "Clay treatment",
       ],
       prices: [
@@ -152,7 +153,7 @@ const PaymentForm = () => {
     },
     {
       title: "SUV/Truck",
-      description: "any 3rd road SUVs and any trucks",
+      description: "Any 3rd road SUVs and any trucks",
       icon: <FaTruckMonster size={50} />,
     },
   ];
@@ -192,10 +193,12 @@ const PaymentForm = () => {
     setSelectedDate(null);
   }
 
-  if (paymentAccessCode !== process.env.NEXT_PUBLIC_PAYMENT_ACCESS) {
+  if (paymentAccessCode !== accessCode) {
     return (
       <div className="flex-1 flex flex-col gap-3 justify-center items-center ">
-        <Label htmlFor="code">Enter access code:</Label>
+        <Label className="text-lg" htmlFor="code">
+          Enter access code:
+        </Label>
         <Input
           value={paymentAccessCode}
           onChange={(e) => setPaymentAccessCode(e.target.value)}

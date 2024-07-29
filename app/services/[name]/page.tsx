@@ -21,7 +21,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
   return (
     <div className="flex flex-col gap-5 min-h-screen py-10 lg:px-48 md:px-28 px-4">
       <Link href={"/"}>
-        <Button className="flex items-center gap-3">
+        <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
           Back to Home
         </Button>
@@ -29,7 +29,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
       <div className="flex flex-col gap-3 w-full">
         <h1 className={cn(myFont.className, "text-5xl")}>{service?.title}</h1>
         <h2 className="font-semibold text-xl">{service?.question}</h2>
-        <p>{service?.answer}</p>
+        <p className="mb-5">{service?.answer}</p>
         <h3 className="font-medium text-lg">1. {service.subheading1}</h3>
         <p>{service.subheading1description}</p>
         <ul className="list-disc">
@@ -100,7 +100,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
             </li>
           ))}
         </ul>
-        <h2 className="font-semibold text-xl">Process</h2>
+        <h2 className="font-semibold mt-5 text-xl">Process</h2>
         <ul className="list-disc">
           {service.process.map((process) => (
             <li key={process.title}>
