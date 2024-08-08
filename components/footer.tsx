@@ -18,7 +18,7 @@ import Logo from "@/public/logo-nobg.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#00232D] z-20 lg:px-48 md:px-16 px-4 py-5">
+    <footer className="bg-[#00232D] z-20 lg:px-40 md:px-16 px-4 py-5">
       <div className="space-y-3">
         <div className="grid gap-12  md:grid-cols-[1.5fr_0.5fr_0.5fr]">
           <div className="not-prose flex flex-col gap-3">

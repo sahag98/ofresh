@@ -13,7 +13,7 @@ const myFont = localFont({
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen flex flex-col py-10 lg:px-48 md:px-10 px-4">
+    <div className="min-h-screen flex flex-col py-10 lg:px-40 md:px-10 px-4">
       <Link href={"/"}>
         <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />

@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-center">
       <Hero />
-      <div className="flex flex-col w-full lg:px-48 md:px-10 px-4">
+      <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
         <About />
         <Services />
         <section className="w-full justify-center flex flex-col my-10 items-center gap-5">

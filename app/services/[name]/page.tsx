@@ -19,7 +19,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
     throw new Error("You shouldn't be here...");
   }
   return (
-    <div className="flex flex-col gap-5 min-h-screen py-10 lg:px-48 md:px-10 px-4">
+    <div className="flex flex-col gap-5 min-h-screen py-10 lg:px-40 md:px-10 px-4">
       <Link href={"/"}>
         <Button variant={"link"} className="flex items-center gap-3">
           <ArrowLeft />
