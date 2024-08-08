@@ -33,10 +33,7 @@ export default function Footer() {
               ></Image>
             </Link>
             <p className="text-white text-lg">
-              <Balancer>
-                From Filth to Fresh, we specialize in all kinds of car detailing
-                services.
-              </Balancer>
+              <Balancer>I specialize in all aspects of car detailing.</Balancer>
             </p>
             <Link href="/book">
               <Button className="text-base text-foreground">Book Now</Button>
@@ -71,10 +68,10 @@ export default function Footer() {
           </div>
           <div className="flex flex-col text-white gap-2">
             <h5 className="mb-2">Business Hours</h5>
-            <span className="font-medium">T-TH-F : 9am - 6pm</span>
+            <span className="font-medium">T-TH-F-SUN : 9am - 6pm</span>
             <span className="font-medium">W : 9am - 4pm</span>
             <span className="font-medium">SAT : 9am - 3pm</span>
-            <span>$60 fee for booking on off days (Sun and Mon)</span>
+            <span>$10 fee for booking on off days (Mon)</span>
           </div>
           <div className="flex flex-col text-white gap-2">
             <h5 className="font-bold">Service Areas</h5>

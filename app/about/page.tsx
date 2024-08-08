@@ -47,7 +47,7 @@ const AboutPage = () => {
         />
       </div>
       <p className={cn(myFont.className, "text-5xl text-center")}>
-        From Filth to FRESH, that&apos;s what Mr. O Fresh Stands.
+        From Filth to FRESH, that&apos;s where Mr. O Fresh Stands.
       </p>
     </div>
   );
