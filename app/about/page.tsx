@@ -40,6 +40,8 @@ const AboutPage = () => {
         </section>
         <Image
           alt="image of owner"
+          placeholder="blur"
+          blurDataURL="/about-blur.jpg"
           src={"/about.jpeg"}
           width={5101}
           height={3301}

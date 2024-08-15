@@ -64,7 +64,7 @@ const AccordionSection = () => {
     <div className="flex flex-col z-20 bg-primary py-5 items-center w-full gap-3 lg:px-40 md:px-10 px-4">
       <h2 className={cn(myFont.className, "text-5xl ")}>FAQ</h2>
       <p className="text-lg">Here are some frequently asked questions.</p>
-      <div className="flex items-center pb-5 justify-between gap-8 w-full">
+      <div className="flex items-center pb-5 justify-between gap-10 w-full">
         <Accordion className="flex-1" type="single" collapsible>
           {faqArray.map((faq) => (
             <AccordionItem key={faq.id} value={faq.question}>
@@ -79,7 +79,9 @@ const AccordionSection = () => {
         </Accordion>
         <Image
           alt="faq image"
-          src={"/cleaning.webp"}
+          src={"/cleaning.jpg"}
+          placeholder="blur"
+          blurDataURL="/cleaning-blur.jpg"
           width={1080}
           height={1080}
           className="lg:w-1/3 lg:flex border border-foreground rounded-lg hidden"
