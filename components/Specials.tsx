@@ -52,7 +52,7 @@ const dummyContent = [
     title: "50% Off",
     description: (
       <p className="font-medium text-center w-11/12 text-lg">
-        Refer a friend and both get 50% off on selected service for 1 month.
+        Refer a friend and both of you receive 50% off selected services.
       </p>
     ),
     full_list: (

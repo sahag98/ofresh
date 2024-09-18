@@ -3,59 +3,69 @@ import { Check, CheckCircle, CircleCheck, Dot, Timer } from "lucide-react";
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { Badge } from "./ui/badge";
 
 const Packages = () => {
   const items = [
     {
-      title: "O'TRA Interior",
-      description: "Only Interior detailing.",
-      services: ["Full vacuum", "full wipedown", "Full shampoo", "Windows"],
+      title: "Simply Fresh",
+      description: "Basic car detailing for a quick and clean look.",
+      tier: "Basic",
+      services: [
+        "Quick wipedown",
+        "Quick vacuum",
+        "Window cleaning",
+        "Foam bath",
+        "Wheel cleaning",
+      ],
       prices: [
         {
           carType: "Sedan",
-          price: 160,
+          price: 60,
         },
         {
           carType: "Midsize",
-          price: 185,
+          price: 75,
         },
         {
           carType: "SUV/Trucks",
-          price: 210,
+          price: 90,
         },
       ],
       time: "2-3 hrs",
     },
     {
-      title: "O'TRA FRESH",
-      description: "All interior and exterior services are included.",
+      title: "O So FRESH",
+      description: "Standard detailing for a fresh and new look.",
+      tier: "Standard",
       services: [
         "Full wipedown",
         "Full shampoo",
-        "Door/Trunk jabs",
+        "Window cleaning",
         "Bug Removal",
-        "Clay treatment",
+        "Wheel cleaning",
         "And More!",
       ],
       prices: [
         {
           carType: "Sedan",
-          price: 300,
+          price: 120,
         },
         {
           carType: "Midsize",
-          price: 350,
+          price: 150,
         },
         {
           carType: "SUV/Trucks",
-          price: 400,
+          price: 180,
         },
       ],
       time: "5-6 hrs",
     },
     {
-      title: "O'TRA Exterior",
-      description: "Only Exterior detailing.",
+      title: "O'TRA Fresh",
+      description: "Premium car detailing for a nice and new look.",
+      tier: "Premium",
       services: [
         "Foam Bath",
         "Bug Removal",
@@ -67,15 +77,15 @@ const Packages = () => {
       prices: [
         {
           carType: "Sedan",
-          price: 140,
+          price: 240,
         },
         {
           carType: "Midsize",
-          price: 165,
+          price: 300,
         },
         {
           carType: "SUV/Trucks",
-          price: 190,
+          price: 360,
         },
       ],
       time: "2-3 hrs",
@@ -93,51 +103,56 @@ const Packages = () => {
         >
           <section className="flex w-full items-center justify-between">
             <h3 className="font-bold text-2xl">{item.title}</h3>
-            <div className="flex items-center justify-between gap-2 rounded-lg">
+            <Badge className="text-base">{item.tier}</Badge>
+            {/* <div className="flex items-center justify-between gap-2 rounded-lg">
               <Timer />
               {item.time}
-            </div>
+            </div> */}
           </section>
 
           <p>{item.description}</p>
-          <h4 className="font-semibold text-lg">Pricing starting at:</h4>
-          <ul className="w-full list-disc flex flex-col items-center justify-between">
-            {item.prices.map((price, pIdx) => (
-              <li
-                className="flex items-center justify-between w-full"
-                key={pIdx}
-              >
-                <div className="flex items-center">
-                  <Dot />
-                  <span>{price.carType}</span>
-                </div>
-                <span className="font-semibold text-lg">${price.price}</span>
-              </li>
-            ))}
-          </ul>
-          <h4 className="font-semibold text-lg">Services</h4>
-          <ul className="w-full mb-5 list-disc flex flex-col gap-3 items-center justify-between">
-            {item.services.map((service, sIdx) => (
-              <li
-                className="flex items-center justify-between w-full"
-                key={sIdx}
-              >
-                <div className="flex items-center gap-2">
-                  <CircleCheck />
-                  <span
-                    className={cn(
-                      "text-white/60",
-                      (idx === 0 && "text-foreground") ||
-                        (idx === 2 && "text-foreground")
-                    )}
-                  >
-                    {service}
-                  </span>
-                </div>
-                {/* <span>${service.}</span> */}
-              </li>
-            ))}
-          </ul>
+          <section>
+            <h4 className="font-semibold text-lg">Pricing starting at:</h4>
+            <ul className="w-full list-disc flex flex-col items-center justify-between">
+              {item.prices.map((price, pIdx) => (
+                <li
+                  className="flex items-center justify-between w-full"
+                  key={pIdx}
+                >
+                  <div className="flex items-center">
+                    <Dot />
+                    <span>{price.carType}</span>
+                  </div>
+                  <span className="font-semibold text-lg">${price.price}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <section className="space-y-2">
+            <h4 className="font-semibold text-lg">Services</h4>
+            <ul className="w-full mb-5 list-disc flex flex-col gap-3 items-center justify-between">
+              {item.services.map((service, sIdx) => (
+                <li
+                  className="flex items-center justify-between w-full"
+                  key={sIdx}
+                >
+                  <div className="flex items-center gap-2">
+                    <CircleCheck />
+                    <span
+                      className={cn(
+                        "text-white",
+                        (idx === 0 && "text-foreground") ||
+                          (idx === 2 && "text-foreground")
+                      )}
+                    >
+                      {service}
+                    </span>
+                  </div>
+                  {/* <span>${service.}</span> */}
+                </li>
+              ))}
+            </ul>
+          </section>
           <Link className="w-full" href={`/book?package_type=${item.title}`}>
             <Button
               size={"lg"}

@@ -33,7 +33,10 @@ export default function Footer() {
               ></Image>
             </Link>
             <p className="text-white text-lg">
-              <Balancer>I specialize in all aspects of car detailing.</Balancer>
+              <Balancer>
+                I offer top-tier mobile car detailing services to keep your
+                vehicle looking showroom-fresh.
+              </Balancer>
             </p>
             <Link href="/book">
               <Button className="text-base text-foreground">Book Now</Button>
@@ -71,12 +74,13 @@ export default function Footer() {
             <span className="font-medium">T-TH-F-SUN : 9am - 6pm</span>
             <span className="font-medium">W : 9am - 4pm</span>
             <span className="font-medium">SAT : 9am - 3pm</span>
-            <span>$10 fee for booking on off days (Mon)</span>
+            <span>Booking available on off-days (Monday) for a $10 fee.</span>
           </div>
           <div className="flex flex-col text-white gap-2">
             <h5 className="font-bold">Service Areas</h5>
             <p>
-              Anywhere within LA County (and surrounding borders) including:
+              I proudly serve all of Los Angeles County and surrounding areas,
+              including:
             </p>
             <ul className="space-y-2 ">
               <li>- Antelope Valley (Lancaster, Palmdale, etc.)</li>
@@ -94,7 +98,7 @@ export default function Footer() {
                 <Instagram className="text-foreground" />
               </Button>
             </Link>
-            <Link href={""}>
+            <Link href={"https://www.tiktok.com/@mrofresh"}>
               <Button size="icon">
                 <Image
                   src={"/tiktok-icon.png"}
@@ -113,7 +117,7 @@ export default function Footer() {
                 <Facebook className="text-foreground" />
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"https://www.youtube.com/@MrOFresh"}>
               <Button size="icon">
                 <Youtube className="text-foreground" />
               </Button>

@@ -27,10 +27,10 @@ const About = () => {
           "lg:text-8xl md:text-6xl text-4xl text-center"
         )}
       >
-        I specialize in all aspects of car detailing
+        Complete Car Detailing Services
       </h2>
       <p className="text-center lg:text-xl md:text-lg text-base">
-        Detailing rides, serving the people, investing into communities!
+        Detailing rides, serving the people, and giving back to the community!
       </p>
       <Link href={"/about"}>
         <Button className="text-lg" variant={"link"}>

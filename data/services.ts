@@ -1,267 +1,316 @@
 export const services = [
   {
     link: "detail",
-    title: "Full on Detail",
-    question: "Why get the service?",
+    title: "Full Service Auto Detailing (Interior & Exterior)",
+    question: "Why choose this service?",
     answer:
-      "Owning a vehicle is a significant investment, and maintaining its condition goes beyond regular maintenance and occasional washes. Auto detailing services offer a comprehensive approach to keeping your car in pristine condition, both inside and out. Here’s why investing in professional detail services is essential:",
-    subheading1: "Benefits of Auto Detailing Services",
+      "Owning a car is a significant investment, and protecting that investment requires more than just routine washes. Our full-service auto detailing offers a comprehensive solution to maintain your vehicle's appearance and condition, inside and out. Discover why investing in professional auto detailing services is a smart choice for any car owner.",
+    subheading1: "Benefits of Professional Auto Detailing Services",
     subheading1description:
-      "Auto detailing services provide a thorough and meticulous cleaning of your vehicle, addressing every aspect of its appearance and condition. The benefits include:",
+      "Our auto detailing services are designed to provide a meticulous and thorough cleaning of your vehicle, targeting every aspect of its appearance and functionality. Here’s what you gain:",
     benefits: [
       {
-        title: "Enhanced Appearance",
+        title: "Enhanced Aesthetic Appeal",
         description:
-          "Detailing restores the shine and luster of your car’s exterior while rejuvenating the interior. This comprehensive cleaning can make your car look and feel like new.",
+          "Restore your car’s shine with our exterior treatments while rejuvenating the interior. Our detailing makes your vehicle look and feel brand new, perfect for those who want their ride to turn heads.",
       },
       {
         title: "Increased Resale Value",
         description:
-          "A well-maintained car is more attractive to potential buyers. Regular detailing preserves the vehicle’s aesthetic appeal and can significantly boost its resale value.",
+          "A clean, well-maintained vehicle commands higher resale value. Regular detailing preserves your car's interior and exterior, making it more attractive to potential buyers and increasing its market worth.",
       },
       {
-        title: "Protection",
+        title: "Long-Lasting Protection",
         description:
-          "Detailing services often include protective treatments such as waxing, sealants, and coatings that shield your car’s paint from environmental damage, UV rays, and contaminants. Interior treatments protect upholstery and surfaces from wear and tear.",
+          "Protect your investment with paint protection, waxing, and sealants that guard against UV rays, contaminants, and harsh environmental elements. Interior treatments keep your upholstery safe from wear and tear.",
       },
       {
-        title: "Longevity",
+        title: "Prolonged Vehicle Lifespan",
         description:
-          "Regular detailing helps maintain your car's components, preventing issues like rust, fading, and cracking, which can extend the overall lifespan of your vehicle.",
+          "Regular detailing prevents rust, paint fading, and upholstery damage, ensuring that your vehicle looks great and functions well for years to come.",
       },
     ],
-    subheading2: "Sanitation",
+    subheading2: "Comprehensive Sanitation Services",
     subheading2description:
-      "Sanitation is a crucial aspect of auto detailing that goes beyond mere cleaning. Detailed sanitation services ensure a hygienic and safe environment inside your car by:",
+      "In today's world, vehicle sanitation is more important than ever. Our detailed sanitation services go beyond cleaning to ensure your car is a safe and hygienic space.",
     ways: [
       {
-        title: "Eliminating Germs and Allergens",
+        title: "Germ and Allergen Elimination",
         description:
-          "Professional detailing includes deep cleaning methods like steam cleaning and vacuuming that remove bacteria, viruses, mold, and allergens from the interior surfaces, promoting a healthier environment.",
+          "Using advanced methods like steam cleaning and deep vacuuming, we remove germs, bacteria, and allergens from every surface in your car, promoting a healthier driving environment.",
       },
       {
         title: "Odor Removal",
         description:
-          "Detailing tackles unpleasant odors by thoroughly cleaning and deodorizing carpets, seats, and other interior components. This not only improves the smell but also enhances the overall driving experience.",
+          "Get rid of stubborn odors caused by spills, pets, or long-term use. We deodorize carpets, seats, and other components, leaving your vehicle smelling fresh.",
       },
       {
-        title: "Stain and Spill Removal",
+        title: "Stain and Spill Management",
         description:
-          "Accidents happen, and detailing services are equipped to handle tough stains and spills, preventing them from setting in and causing long-term damage to your upholstery and carpets.",
+          "Equipped to remove tough stains and spills from your upholstery and carpets, restoring your vehicle’s interior and preventing lasting damage.",
       },
     ],
-    subheading3: "Tender Love & Care (TLC)",
+    subheading3: "Premium Tender Love & Care (TLC)",
     subheading3description:
-      "Giving your car the tender love and care it deserves involves more than just cleaning; it’s about paying attention to the finer details and ensuring every aspect of your vehicle is well-maintained. Professional detailing provides:",
+      "Your car deserves more than just a quick wash. Our auto detailing specialists provide the attention to detail that keeps your vehicle looking pristine.",
     more: [
       {
-        title: "Personalized Attention",
+        title: "Personalized Service",
         description:
-          "Detailers focus on the unique needs of your car, addressing specific issues and customizing their approach to ensure the best results.",
+          "The services are based on your car’s unique needs, ensuring that specific issues are addressed with care and precision.",
       },
       {
-        title: "High-Quality Products and Equipment",
+        title: "Top-Tier Products and Tools",
         description:
-          "Detailing professionals use specialized tools and high-quality products that are designed to deliver superior results without damaging your vehicle.",
+          "We use the highest-quality products and tools designed to enhance your vehicle’s appearance without causing damage.",
       },
       {
-        title: "Expertise and Experience",
+        title: "Expertise You Can Trust",
         description:
-          "Detailers have the skills and knowledge to handle various materials and surfaces, ensuring that each part of your car receives the appropriate care and treatment.",
+          "Our detailers have the experience and skill to handle various surfaces and materials, from leather seats to delicate paint jobs, ensuring everything receives the appropriate care.",
       },
     ],
     process: [
       {
-        title: "Vehicle Inspection",
+        title: "Step 1: Vehicle Inspection",
         description:
-          "I conduct a thorough inspection of your vehicle (inside and/or out), identifying specific needs along with determining (and recommending) what kind of service (and recommended add-ons) it needs. I then confirm with you (the customer) of what you want done along with the recommendations for your vehicle.",
+          "We begin by thoroughly inspecting your vehicle, both inside and out. This allows me to identify your car’s specific needs and recommend tailored auto detailing services and add-ons.",
       },
       {
-        title: "Interior",
+        title: "Step 2: Interior Detailing",
         description:
-          "If selecting the full-on detail, I will always start with the interior detailing first before I do the exterior. This service includes vacuuming, shampooing carpets, and wiping down your interior to a nice finish. If you’ve selected any interior add-ons (upholstery and/or sanitation), those services will be included with the interior detail before I move on to the exterior.",
+          "If you select my full-service detail, I start with the interior. My service includes vacuuming, carpet shampooing, and a meticulous wipedown to give your car’s interior a flawless finish. Any selected add-ons, like upholstery or sanitation services, will also be completed during this stage.",
       },
       {
-        title: "Exterior",
+        title: "Step 3: Exterior Detailing",
         description:
-          "If selecting the full-on detail, I will always do the exterior detailing right after I do the interior. This service includes clay treatment, foam bath, wheel & tire clean with dressing to make your exterior looking new. If you’ve selected any exterior add-ons (maintenance), those services will be included with the exterior detail and will be done first before I wash & foam the vehicle.",
+          "Next, I move to the exterior, providing a foam bath, clay treatment, and wheel cleaning with dressing. If you’ve chosen any exterior add-ons, such as maintenance services, these will be completed first before the main wash begins.",
       },
       {
-        title: "Final Inspection",
+        title: "Step 4: Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
+          "After completing the detailing process, I perform a final inspection to ensure every service has been delivered to the highest standard. You’re invited to inspect the vehicle as well, so we can ensure your complete satisfaction.",
       },
       {
-        title: "Follow Up Maintenance",
+        title: "Step 5: Ongoing Maintenance",
         description:
-          "If you’re satisfied with the service that I’ve provided for your vehicle, I can then schedule you for a monthly upkeep service to maintain and prolong the finish of your vehicles.",
+          "Love the result? Schedule regular upkeep services to maintain your vehicle’s pristine condition. Our maintenance packages are designed to prolong the life of your car’s detailing.",
       },
     ],
   },
   {
     link: "maintenance",
-    title: "Maintenance (Add-On)",
-    question: "Why get the Add-On?",
+    title: "Maintenance Add-On Services for Auto Detailing",
+    question: "Why Choose Maintenance Add-Ons?",
     answer:
-      "Maintaining your vehicle involves more than just regular washes and mechanical upkeep. To truly preserve the beauty, functionality, and longevity of your car, incorporating maintenance add-ons into your auto detailing routine is essential. Services such as waxing, clay treatment, headlight restoration, engine bay cleaning, and tar removal offer comprehensive care that addresses both aesthetic and practical aspects of your vehicle. Here’s why you should consider these maintenance add-ons:",
-    subheading1: "Wax",
+      "Maintaining the beauty, performance, and longevity of your vehicle goes beyond routine washes and mechanical services. To truly protect your car's exterior and interior, adding maintenance services such as waxing, clay treatment, headlight restoration, engine bay cleaning, and tar removal to your auto detailing routine is crucial. Here’s why these essential add-ons can make a big difference in preserving your car's value and appearance.",
+    subheading1: "Waxing: Essential Paint Protection",
     subheading1description:
-      "Waxing is a fundamental aspect of car care that provides a protective layer over your car’s paint. The benefits of waxing include:",
+      "One of the most important steps in car care, waxing, offers a layer of protection that helps preserve your vehicle's exterior. The benefits of regular waxing include:",
     benefits: [
       {
         title: "Protection from the Elements",
         description:
-          "Wax acts as a barrier against harmful UV rays, rain, snow, and other environmental contaminants that can degrade your car’s paint over time.",
+          "Wax shields your car’s paint from harmful UV rays, rain, snow, and pollutants that can degrade its surface over time.",
       },
       {
-        title: "Enhanced Shine",
+        title: "Enhanced Gloss and Shine",
         description:
-          "A good wax job brings out the depth and richness of your car’s color, giving it a glossy, showroom-like finish.",
+          "A fresh coat of wax enhances the depth and richness of your car’s color, leaving it with a shiny, showroom finish.",
       },
       {
-        title: "Ease of Cleaning",
+        title: "Easier Cleaning",
         description:
-          "The smooth, protective layer created by wax helps repel dirt and grime, making it easier to wash and maintain your car’s cleanliness.",
+          "Wax creates a smooth surface that repels dirt and grime, making future washes faster and more efficient.",
       },
     ],
-    subheading2: "Clay Treatment",
+    subheading2: "Clay Treatment: Deep Surface Cleaning",
     subheading2description:
-      "Clay treatment is a specialized process that removes embedded contaminants from your car’s paint surface. The advantages of clay treatment are:",
+      "Our clay treatment is designed to remove embedded contaminants that can’t be addressed with standard washing. Here’s how it benefits your car:",
     ways: [
       {
-        title: "Smooth Surface",
+        title: "Smoother Surface",
         description:
-          "By removing impurities such as industrial fallout, brake dust, and tar, clay treatment leaves your car’s paint smooth and ready for further detailing steps.",
+          "Clay treatment eliminates stubborn contaminants like brake dust, industrial fallout, and tar, leaving your paint surface smooth and ready for further detailing.",
       },
       {
-        title: "Improved Paint Condition",
+        title: "Enhanced Wax and Polish Results",
         description:
-          "This treatment enhances the effectiveness of waxing and polishing, ensuring a more uniform and long-lasting finish.",
+          "By prepping the paint, clay treatment ensures that waxes and polishes adhere more effectively, providing a longer-lasting and more uniform finish.",
       },
       {
-        title: "Preventing Damage",
+        title: "Paint Protection",
         description:
-          "Regular clay treatment prevents contaminants from causing long-term damage to the paint, such as oxidation and etching.",
+          "Regular clay treatment prevents contaminants from causing permanent damage to your paint, such as oxidation or etching.",
       },
     ],
-    subheading3: "Headlight Restoration",
+    subheading3: "Headlight Restoration: See and Be Seen",
     subheading3description:
-      "Over time, headlights can become cloudy and discolored, reducing their effectiveness and detracting from your car’s appearance. Headlight restoration offers:",
+      "Over time, your car’s headlights can become cloudy and yellowed, which not only affects visibility but also detracts from the vehicle’s overall appearance. Headlight restoration offers:",
     more: [
       {
         title: "Improved Visibility",
         description:
-          " Restored headlights provide better illumination, enhancing your safety by improving night-time and adverse weather visibility.",
+          "Restored headlights enhance night-time driving visibility and make driving in poor weather conditions safer.",
       },
       {
-        title: "Aesthetic Appeal",
+        title: "Aesthetic Enhancement",
         description:
-          "Clear, bright headlights contribute to the overall look of your car, making it appear newer and well-maintained.",
+          "Clear, bright headlights dramatically improve the look of your car, making it appear newer and better maintained.",
       },
       {
         title: "Cost-Effective Solution",
         description:
-          "Restoration is a more affordable alternative to replacing headlights, offering significant improvements without the expense of new units.",
+          "Instead of costly replacements, headlight restoration is an affordable way to restore clarity and effectiveness to your headlights.",
       },
     ],
-    subheading4: "Engine Bay Cleaning",
+    subheading4: "Engine Bay Cleaning: Keeping Your Car Running Smoothly",
     subheading4description:
-      "Cleaning the engine bay is an often-overlooked aspect of auto detailing, but it provides several important benefits:",
+      "Though often overlooked, engine bay cleaning is a crucial part of vehicle care that provides multiple benefits:",
     more1: [
       {
-        title: "Easier Maintenance",
+        title: "Easier Detection of Issues",
         description:
-          "A clean engine bay makes it easier to spot leaks, worn-out parts, and other issues, facilitating timely maintenance and repairs.",
+          "A clean engine bay allows for easier identification of leaks, worn-out parts, and other issues, helping you maintain your vehicle more efficiently.",
       },
       {
-        title: "Improved Performance",
+        title: "Improved Engine Performance",
         description:
-          "Removing dirt, grease, and debris can help keep engine components running smoothly, potentially improving your car’s performance.",
+          "Removing accumulated dirt, grease, and debris helps the engine and its components run smoothly, potentially improving overall vehicle performance.",
       },
       {
-        title: "Enhanced Resale Value",
+        title: "Boosted Resale Value",
         description:
-          "A well-maintained engine bay can impress potential buyers and demonstrate that the vehicle has been well cared for.",
+          "A clean and well-maintained engine bay increases your car's resale value by showing potential buyers that the vehicle has been properly cared for.",
       },
     ],
-    subheading5: "Tar Removal",
+    subheading5: "Tar Removal: Protect Your Paint",
     subheading5description:
-      "Tar spots are not only unsightly but can also damage your car’s paint if left untreated. Tar removal is essential for:",
+      "Tar spots not only ruin the appearance of your car but can also cause long-term damage if left untreated. Our tar removal service is key to:",
     more2: [
       {
         title: "Preserving Paint Integrity",
         description:
-          "Tar can cause stains and etching on your car’s paint, leading to long-term damage if not promptly removed.",
+          "Tar spots can stain and damage your vehicle’s paint. Removing them promptly prevents this long-term damage.",
       },
       {
-        title: "Aesthetic Improvement",
+        title: "Restoring Exterior Aesthetics",
         description:
-          "Removing tar spots restores the clean, smooth look of your car’s exterior, enhancing its overall appearance.",
+          "By removing unsightly tar spots, we restore your car's smooth, clean appearance, giving it a polished look.",
       },
       {
-        title: "Preventing Further Contamination",
+        title: "Preventing Contamination",
         description:
-          "Regular tar removal prevents the buildup of contaminants that can attract more dirt and grime, making it easier to keep your car clean.",
+          "Regular tar removal prevents the buildup of contaminants, which can attract dirt and grime, making it easier to keep your car clean in the future.",
       },
     ],
     process: [
       {
-        title: "Vehicle Inspection",
+        title: "Step 1: Vehicle Inspection",
         description:
-          "I conduct a thorough inspection of your vehicle’s exterior, identifying specific needs along with determining (and recommending) what kind of service (and recommended add-ons) it needs. I then confirm with you (the customer) of what you want done along with the recommendations for your vehicle.",
+          "I begin with a comprehensive exterior inspection of your vehicle, identifying any specific needs and recommending the appropriate auto detailing maintenance add-ons.",
       },
       {
-        title: "Maintenance",
+        title: "Step 2: Maintenance Services",
         description:
-          "If selecting either the full-on detail or the exterior detail, I will always do the maintenance add-on service right before handling the exterior. These add-one services can include headlight restoration, engine bay cleaning, and clay treatment.",
+          "Before I begin any exterior detailing, I perform all selected maintenance services. Whether it’s headlight restoration, engine bay cleaning, or clay treatment, these add-ons will be completed first to ensure your vehicle receives the best care possible.",
       },
       {
-        title: "Exterior",
+        title: "Step 3: Exterior Detailing",
         description:
-          "If selecting either the full-on detail or the exterior detail, I will always do the exterior detailing right after I do the maintenance add-ons. This service includes clay treatment, foam bath, wheel & tire clean with dressing to make your exterior looking new.",
+          "Following the add-ons, I proceed with exterior detailing. This includes a foam bath, clay treatment, and wheel & tire cleaning with dressing to give your vehicle a fresh, like-new appearance.",
       },
       {
-        title: "Final Inspection",
+        title: "Step 4: Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
+          "Once the work is complete, we conduct a thorough final inspection of your vehicle. You’re invited to inspect it as well to ensure you’re completely satisfied with the results.",
       },
     ],
   },
   {
     link: "upholstery",
-    title: "Upholstery (Add-On)",
-    question: "Why get the Add-On?",
+    title: "Upholstery Detailing Add-On Services",
+    question: "Why Choose Upholstery Add-Ons?",
     answer:
-      "When it comes to auto detailing, many car owners focus primarily on the exterior, ensuring that the paintwork gleams and the wheels sparkle. However, the interior of your vehicle is where you spend most of your time, and it deserves just as much attention. Upholstery add-ons are essential for maintaining the comfort, aesthetics, and longevity of your car's interior. Here’s why you should consider adding these services to your auto detailing routine:",
-    subheading1: "Dashboard Console Cleaning",
+      "When it comes to auto detailing, the interior of your vehicle is just as important as the exterior. While a polished paint job and gleaming wheels are eye-catching, you spend most of your time inside the car. That’s why maintaining the upholstery and interior surfaces is essential for both comfort and longevity. Our upholstery detailing add-ons provide specialized care for your vehicle’s interior, ensuring it remains clean, fresh, and inviting.",
+    subheading1: "Dashboard Console Cleaning: Keep Your Interior Looking New",
     subheading1description:
-      "The dashboard console is one of the most frequently touched and highly visible areas inside your car. Dust, fingerprints, and grime can accumulate quickly, making your car look neglected. Professional cleaning of the dashboard console not only enhances its appearance but also helps to prevent wear and tear. Regular maintenance keeps the dashboard materials in good condition, ensuring that they remain functional and aesthetically pleasing for longer.",
-    subheading2: "Pet Hair Removal",
-    subheading2description:
-      "For pet owners, removing pet hair from car upholstery can be a daunting task. Pet hair can embed itself deep into fabric and carpeting, making it difficult to remove with regular vacuuming. Professional pet hair removal services use specialized tools and techniques to effectively eliminate pet hair, ensuring a clean and allergen-free environment. This not only improves the look of your car's interior but also enhances the air quality and comfort for all passengers.",
-
-    subheading3: "Leather Treatment",
-    subheading3description:
-      "Leather seats add a touch of luxury to any vehicle, but they require proper care to maintain their appearance and durability. Over time, leather can dry out, crack, and fade if not treated correctly. Leather treatment services involve cleaning, conditioning, and protecting the leather surfaces. This process restores the natural oils, prevents cracking, and keeps the leather looking supple and vibrant. Investing in regular leather treatment can significantly extend the life of your leather upholstery, preserving its luxurious feel and appearance.",
-
-    subheading4: "Vacuuming",
-    subheading4description:
-      "While vacuuming might seem like a basic task, professional vacuuming as part of an auto detailing service goes beyond the capabilities of your household vacuum cleaner. Detailing professionals use high-powered, specialized vacuums designed to reach every nook and cranny of your car's interior. They can remove dirt, dust, and debris from hard-to-reach areas, such as under seats and in tight crevices. Comprehensive vacuuming not only improves the cleanliness of your car but also helps to prevent the buildup of allergens and odors, ensuring a healthier and more pleasant driving experience.",
-    process: [
+      "Your dashboard and console are the focal points of your car’s interior and can easily accumulate dust, dirt, and grime. Here’s why professional dashboard console cleaning is a must:",
+    benefits: [
       {
-        title: "Vehicle Inspection",
+        title: "Prevents Wear and Tear",
         description:
-          "I conduct a thorough inspection of your vehicle’s interior, identifying specific needs along with determining (and recommending) what kind of service (and recommended add-ons) it needs. I then confirm with you (the customer) of what you want done along with the recommendations for your vehicle.",
+          "Regular cleaning prevents the buildup of debris, which can lead to premature wear and cracking of dashboard materials.",
       },
       {
-        title: "Sanitation",
+        title: "Improved Aesthetics",
+        description:
+          "A clean and well-maintained dashboard gives your car’s interior a polished and refreshed appearance.",
+      },
+      {
+        title: "Enhanced Functionality",
+        description:
+          " Keeping the dashboard clean ensures all buttons, vents, and controls function properly and remain free of debris.",
+      },
+    ],
+    subheading2: "Pet Hair Removal: A Clean and Allergen-Free Interior",
+    subheading2description:
+      "For pet owners, pet hair can be a persistent issue that regular vacuums just can’t tackle. Our pet hair removal service provides:",
+    ways: [
+      {
+        title: "Deep Cleaning",
+        description:
+          "Specialized tools designed to extract pet hair from fabric, carpets, and hard-to-reach areas.",
+      },
+      {
+        title: "Improved Air Quality",
+        description:
+          "Removing pet hair reduces allergens in your car’s interior, promoting a healthier environment.",
+      },
+      {
+        title: "Enhanced Comfort",
+        description:
+          "A clean, hair-free interior makes for a more enjoyable ride for you and your passengers.",
+      },
+    ],
+    subheading3: "Leather Treatment: Protect Your Investment",
+    subheading3description:
+      "Leather upholstery adds luxury and elegance to your vehicle, but it requires proper care to stay in top condition. Our leather treatment service includes:",
+    more: [
+      {
+        title: "Cleaning and Conditioning",
+        description:
+          "We remove dirt and oils, then apply conditioners to restore the leather’s natural luster and suppleness.",
+      },
+      {
+        title: "Prevent Cracking and Fading",
+        description:
+          "Regular treatment prevents drying, cracking, and fading caused by exposure to sunlight and everyday wear.",
+      },
+      {
+        title: "Extend Lifespan",
+        description:
+          "Preserve the luxurious feel of your leather seats by investing in regular treatments that protect and nourish the material.",
+      },
+    ],
+    subheading4: "Professional Vacuuming: A Deeper Clean",
+    subheading4description:
+      "Vacuuming is a standard part of any auto detailing service, but our professional vacuuming goes beyond what you can achieve with a household vacuum:",
+    more1: [
+      {
+        title: "Powerful Equipment",
+        description:
+          "I use high-powered, industrial vacuums to remove dirt, dust, and debris from every corner of your car.",
+      },
+      {
+        title: "Reach Tight Spaces",
         description:
           "Combined with this add-on service, I go over the interior to clean up any sanitary-concerned areas (like the dashboard, console, and chairs) to make it as feasibly safe, clean, and enjoyable to be in as possible.",
       },
       {
-        title: "Interior",
+        title: "Prevents Odors and Allergens",
         description:
-          "This service includes vacuuming, shampooing carpets, and wiping down your interior to a nice finish. If you’ve selected any interior add-ons (upholstery and/or sanitation), those services will be included with the interior detail before I move on to the exterior.",
+          "A thorough vacuuming eliminates dust, allergens, and other debris, promoting a fresher and healthier interior.",
       },
       {
         title: "Final Inspection",
@@ -269,42 +318,120 @@ export const services = [
           "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
       },
     ],
+    process: [
+      {
+        title: "Step 1: Comprehensive Vehicle Inspection",
+        description:
+          "We begin with a thorough inspection of your vehicle’s interior, identifying problem areas and discussing recommended upholstery add-on services. We confirm with you what services you’d like performed and tailor the detailing process to your vehicle’s specific needs.",
+      },
+      {
+        title: "Step 2: Sanitation",
+        description:
+          "As part of my upholstery service, I also address sanitation concerns, ensuring that high-touch areas such as the dashboard, console, and seats are cleaned and disinfected for a safe and pleasant driving experience.",
+      },
+      {
+        title: "Step 3: Interior Detailing",
+        description:
+          "After inspecting and sanitizing the interior, we perform a detailed cleaning that includes vacuuming, shampooing carpets, and wiping down surfaces for a smooth and polished finish. If you’ve selected any additional upholstery services, they will be completed at this stage before we move on to any exterior detailing.",
+      },
+      {
+        title: "Step 4: Final Inspection",
+        description:
+          "Once all services have been completed, we conduct a final inspection to ensure the work meets your expectations. You’re encouraged to review the results with us to ensure you’re fully satisfied with your freshly detailed interior.",
+      },
+    ],
   },
   {
     link: "sanitation",
-    title: "Sanitation (Add-On)",
-    question: "Why get the Add-On?",
+    title: "Sanitation Detailing Add-On Services",
+    question: "Why Choose the Sanitation Add-On?",
     answer:
-      "Maintaining the cleanliness of your vehicle goes beyond just a sparkling exterior. The interior of your car is a haven for dirt, germs, and allergens, making regular sanitation crucial for your health and comfort. Sanitation add-ons for auto detailing, such as steam cleaning, extraction, and carpet shampooing, play a vital role in ensuring your car’s interior is not only visually appealing but also hygienic. Here’s why you should consider these services:",
-    subheading1: "Steam Cleaning",
+      "Keeping your vehicle clean involves more than just maintaining its exterior. The interior of your car can harbor dirt, bacteria, allergens, and odors that impact your health and comfort. Our sanitation add-on services—including steam cleaning, extraction, and carpet shampooing—are designed to provide a deep and thorough clean that ensures your car’s interior is not only visually appealing but also hygienic. Here’s why these services are essential for maintaining your vehicle’s cleanliness:",
+    subheading1: "Steam Cleaning: A Powerful, Eco-Friendly Solution",
     subheading1description:
-      "Steam cleaning is a powerful method for sanitizing your car’s interior. Using high-temperature steam, this process effectively kills bacteria, viruses, and mold spores that can lurk in your upholstery, carpets, and hard surfaces. Steam cleaning penetrates deep into fabric fibers and crevices, loosening dirt and grime without the need for harsh chemicals. This eco-friendly cleaning method ensures a thorough cleanse, leaving your car smelling fresh and free from harmful pathogens. Additionally, steam cleaning is safe for all interior materials, including leather, making it a versatile option for comprehensive sanitation.",
-    subheading2: "Extraction",
+      "Steam cleaning is one of the most effective methods for sanitizing your vehicle’s interior. By using high-temperature steam, this service offers several benefits:",
+    benefits: [
+      {
+        title: "Kills Bacteria and Germs",
+        description:
+          "Steam cleaning destroys harmful bacteria, viruses, and mold spores, ensuring a safer and more sanitary environment inside your vehicle.",
+      },
+      {
+        title: "Chemical-Free Cleaning",
+        description:
+          "This eco-friendly method relies on steam, making it safe for all interior materials, including leather, without the need for harsh chemicals.",
+      },
+      {
+        title: "Removes Deep-Set Dirt",
+        description:
+          "Steam penetrates fabric and upholstery, loosening dirt and grime in hard-to-reach places for a deeper clean.",
+      },
+      {
+        title: "Fresh Smell",
+        description:
+          "Your vehicle’s interior will be left smelling fresh, free from lingering odors caused by germs and dirt.",
+      },
+    ],
+    subheading2: "Extraction: Deep-Cleaning for Upholstery and Carpets",
     subheading2description:
-      "Extraction cleaning is particularly effective for deep-cleaning your car’s upholstery and carpets. This method involves applying a cleaning solution to the fabric, agitating it to loosen dirt and stains, and then using a powerful vacuum to extract the solution along with the contaminants. Extraction removes embedded dirt, allergens, and moisture that regular vacuuming cannot reach. This process is especially beneficial for removing tough stains and spills, ensuring your car's interior looks immaculate and feels fresh. Regular extraction cleaning helps maintain the integrity of your upholstery, prolonging its life and keeping it looking new.",
-    subheading3: "Carpet Shampoo",
+      "Extraction cleaning is a highly effective technique for removing deeply embedded dirt, allergens, and stains from your car’s upholstery and carpets. Here's why it’s essential:",
+    ways: [
+      {
+        title: "Effective Stain Removal",
+        description:
+          "Extraction cleaning applies a cleaning solution, agitates the fabric to loosen dirt, and then vacuums the contaminants away, leaving upholstery and carpets looking spotless.",
+      },
+      {
+        title: "Allergen Removal",
+        description:
+          "This deep-cleaning process eliminates allergens such as dust mites and pollen, promoting better air quality inside your vehicle.",
+      },
+      {
+        title: "Preserves Upholstery",
+        description:
+          "Regular extraction helps maintain the look and feel of your car’s upholstery, extending its lifespan and keeping it fresh.",
+      },
+    ],
+    subheading3: "Carpet Shampooing: Revitalize Your Car’s Flooring",
     subheading3description:
-      "Carpets in your car endure significant wear and tear, accumulating dirt, mud, food particles, and other debris over time. Carpet shampooing is a specialized service that involves using a high-quality cleaning solution specifically designed for automotive carpets. The shampoo penetrates deep into the carpet fibers, breaking down stains and lifting out dirt. Professional carpet shampooing not only restores the appearance of your carpets but also eliminates odors and allergens trapped within the fibers. This service leaves your car’s carpets looking vibrant and feeling soft, contributing to a more pleasant driving experience.",
+      "Carpets in your vehicle are exposed to significant wear and tear, trapping dirt, mud, food particles, and debris. Our carpet shampooing service offers a solution:",
+    more: [
+      {
+        title: "Deep Penetration",
+        description:
+          "High-quality automotive shampoo penetrates deep into carpet fibers to break down stains and remove ground-in dirt.",
+      },
+      {
+        title: "Odor Elimination",
+        description:
+          "Carpet shampooing neutralizes unpleasant odors, leaving your vehicle smelling clean and fresh.",
+      },
+      {
+        title: "Enhanced Appearance",
+        description:
+          "Your carpets will look vibrant and feel soft, contributing to a more pleasant and comfortable driving experience.",
+      },
+    ],
     process: [
       {
-        title: "Vehicle Inspection",
+        title: "Step 1: Comprehensive Vehicle Inspection",
         description:
-          "I conduct a thorough inspection of your vehicle’s interior, identifying specific needs along with determining (and recommending) what kind of service (and recommended add-ons) it needs. I then confirm with you (the customer) of what you want done.",
+          "We start by conducting a thorough inspection of your vehicle’s interior to identify problem areas. Based on this assessment, we’ll recommend the most appropriate sanitation add-ons, and confirm the services you would like performed.",
       },
       {
-        title: "Upholstery",
+        title: "Step 2: Upholstery Cleaning",
         description:
-          "Combined with this add-on service, I go over the interior to clean up any upholstery-concerned areas (like the dashboard, chairs, and floors) to make providing this add-on service more effectively to do as feasibly safe, clean, and enjoyable to be in as possible.",
+          "For a complete sanitation service, we’ll clean all upholstery and surfaces within the vehicle, including dashboard, seats, and floor mats, ensuring the interior is thoroughly sanitized and refreshed.",
       },
       {
-        title: "Interior",
+        title: "Step 3: Interior Detailing",
         description:
-          "This service includes vacuuming, shampooing carpets, and wiping down your interior to a nice finish. If you’ve selected any interior add-ons (upholstery and/or sanitation), those services will be included with the interior detail before I move on to the exterior.",
+          "Following the upholstery and sanitation service, we proceed with our full interior detail. This includes vacuuming, shampooing carpets, and wiping down surfaces to leave your car’s interior looking pristine. If additional services like steam cleaning or extraction were selected, we’ll carry them out at this stage before moving on to any exterior detailing.",
       },
       {
-        title: "Final Inspection",
+        title: "Step 4: Final Inspection",
         description:
-          "After the services have been done, I will conduct a final inspection of the vehicle to ensure that service has been delivered and encourage you to inspect it (if you’re available).",
+          "Once all services have been completed, we conduct a final inspection to ensure the vehicle meets our high standards and yours. You are welcome to inspect the vehicle with us to ensure your complete satisfaction with the results.",
       },
     ],
   },

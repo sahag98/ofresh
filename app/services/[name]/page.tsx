@@ -26,13 +26,13 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
           Back to Home
         </Button>
       </Link>
-      <div className="flex flex-col gap-3 w-full">
+      <div className="flex flex-col gap-1 w-full">
         <h1 className={cn(myFont.className, "text-5xl")}>{service?.title}</h1>
         <h2 className="font-semibold text-xl">{service?.question}</h2>
         <p className="mb-5">{service?.answer}</p>
         <h3 className="font-medium text-lg">1. {service.subheading1}</h3>
         <p>{service.subheading1description}</p>
-        <ul className="list-disc">
+        <ul className="list-disc mb-4">
           {service.benefits?.map((benefit) => (
             <li key={benefit.title}>
               <h4 className="font-medium">{benefit.title}</h4>
@@ -47,7 +47,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
           </>
         )}
 
-        <ul className="list-disc">
+        <ul className="list-disc mb-4">
           {service.ways?.map((way) => (
             <li key={way.title}>
               <h4 className="font-medium">{way.title}</h4>
@@ -62,7 +62,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
           </>
         )}
 
-        <ul className="list-disc">
+        <ul className="list-disc mb-4">
           {service.more?.map((more) => (
             <li key={more.title}>
               <h4 className="font-medium">{more.title}</h4>
@@ -77,7 +77,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
           </>
         )}
 
-        <ul className="list-disc">
+        <ul className="list-disc mb-4">
           {service.more1?.map((more) => (
             <li key={more.title}>
               <h4 className="font-medium">{more.title}</h4>
@@ -92,7 +92,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
           </>
         )}
 
-        <ul className="list-disc">
+        <ul className="list-disc mb-4">
           {service.more2?.map((more) => (
             <li key={more.title}>
               <h4 className="font-medium">{more.title}</h4>
@@ -100,7 +100,7 @@ const ServicePage = ({ params: { name } }: { params: { name: string } }) => {
             </li>
           ))}
         </ul>
-        <h2 className="font-semibold mt-5 text-xl">Process</h2>
+        <h2 className="font-semibold  text-xl">Process</h2>
         <ul className="list-disc">
           {service.process.map((process) => (
             <li key={process.title}>

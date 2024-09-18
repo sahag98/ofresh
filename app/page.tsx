@@ -24,10 +24,12 @@ export default function Home() {
         <About />
         <Services />
         <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
-          <h2 className={cn(myFont.className, "text-5xl")}>Packages</h2>
+          <h2 className={cn(myFont.className, "text-5xl")}>
+            Detailing Packages Tailored to Your Needs
+          </h2>
           <p className="text-lg">
-            Here are the available packages I offer to satisfy your car&apos;s
-            needs.
+            Choose from a variety of detailing packages that suit your
+            vehicle&apos;s specific needs.
           </p>
           <Packages />
         </section>
@@ -37,9 +39,8 @@ export default function Home() {
         >
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
-            Are you an educator, an athlete, or bought a new vehicle? At Mr. O
-            Fresh, I have special offers to show your ride some love and add
-            value to you, the customer.
+            Whether you're an educator, athlete, or new car owner, we have
+            special discounts designed just for you.
           </p>
           <span className="font-medium">
             Disclaimer: Verification (work/member ID, proof of purchase, etc.)

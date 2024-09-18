@@ -31,31 +31,31 @@ const Skeleton = ({ image }: { image: string }) => (
 );
 const items = [
   {
-    title: "Full on Detail (inside out)",
+    title: "Full Service Auto Detailing (Interior & Exterior)",
     description:
-      "Does your ride need some TLC? Going on a business trip? Got a weekend date? Great! Our auto detailing packages will keep your ride looking fresh that include a foam bath, wax, interior cleaning, and more. Your date, business, and ride will thank you kindly.",
-    header: <Skeleton image="/detailing.jpg" />,
+      "Need your ride to look its best for a special occasion or everyday use? I provide luxurious foam baths, thorough interior cleaning, and more.",
+    header: <Skeleton image="/detailing.jpeg" />,
     link: "detail",
   },
   {
-    title: "Maintenance",
+    title: "Regular Vehicle Maintenance",
     description:
-      "From clay treatment to undercarriage wash, engine bay cleaning to headlight restoration, iron removal to gum and tar removal, we'll have your car looking and feeling like new in no time.",
+      "From clay bar treatments to engine bay cleaning and headlight restoration, I provide comprehensive care that keeps your car in peak condition.",
     header: <Skeleton image="/engine-bay.jpeg" />,
     link: "maintenance",
   },
   {
     title: "Upholstery",
     description:
-      "Maintain your car's fresh look and smell by regularly vacuuming and using fabric protection for upholstery. Remove pet hair with the right tools, treat leather with care, and protect it from wear. Keep the dashboard and console clean with a quick wipe down.",
+      "Keep your vehicle's interior fresh with regular vacuuming and fabric protection. I offer leather treatment, pet hair removal, and dashboard cleaning to maintain a pristine look and feel.",
     header: <Skeleton image="/upholstery.jpeg" />,
     link: "upholstery",
   },
   {
     title: "Sanitation",
     description:
-      "Looking for a professional and reliable cleaning service for your vehicle? Look no further than our team! We offer a wide range of services, including sanitation with extraction, steam cleaning, mold removal, ozone treatment, biohazard treatment, seat and carpet shampoo, baby and toddler seats, headliner cleaning, and odor elimination.",
-    header: <Skeleton image="/cleaning.webp" />,
+      "I offer professional car sanitation services, including steam cleaning, mold removal, biohazard treatments, odor elimination, and more, ensuring your car is spotless and safe.",
+    header: <Skeleton image="/sanitation.PNG" />,
     link: "sanitation",
   },
 ];

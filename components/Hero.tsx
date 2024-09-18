@@ -14,24 +14,23 @@ const myFont = localFont({
 const Hero = () => {
   return (
     <section className="flex  relative flex-col bg-primary bg-hero-img w-full min-h-screen items-center justify-center ">
-      <div className="absolute inset-0 z-10 bg-black opacity-80"></div>
+      <div className="absolute inset-0 z-10 bg-black opacity-85"></div>
       <div className="flex flex-col z-30 items-center gap-3 justify-center">
         <h1
           className={cn(
             myFont.className,
-            "lg:text-9xl text-8xl rounded-md px-4 text-primary "
+            "lg:text-9xl text-8xl text-center rounded-md px-4 text-primary "
           )}
         >
-          Mr. O Fresh
+          From Filth to Fresh
         </h1>
         {/* <TextGenerateEffect
           className="font-normal text-center text-base"
           words="From Filth to Fresh, we specialize in all kinds of car detailing services."
         /> */}
-        <p className="text-white/80 text-center w-4/5 lg:w-full text-lg">
-          From <b className="text-white">Filth</b> to
-          <b className="text-white"> Fresh</b>, I specialize in all kinds of car
-          detailing services.
+        <p className="text-white text-center w-4/5 lg:w-full text-xl">
+          I offer top-tier mobile car detailing services to keep your vehicle
+          looking showroom-fresh.
         </p>
         <section className="flex lg:flex-row lg:px-0 px-4 mt-5 flex-col lg:w-fit w-full items-center gap-3">
           <Link className="lg:w-fit w-2/3" href={"/book"}>
@@ -48,7 +47,7 @@ const Hero = () => {
             <button className="relative w-full inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-primary px-3 py-1 text-base gap-3 font-bold text-foreground backdrop-blur-3xl">
                 <Phone />
-                FREE QUOTE
+                Get Your FREE Quote Today
               </span>
             </button>
           </Link>
@@ -84,7 +83,7 @@ const Hero = () => {
         className="w-full flex items-center justify-center py-5 absolute bottom-0 z-30 bg-primary"
       >
         <h2 className="font-semibold md:text-base text-sm underline cursor-pointer">
-          Special offers for teachers, delivery drivers, and more!
+          Exclusive discounts for teachers, delivery drivers, and more!
         </h2>
       </Link>
     </section>
