@@ -11,9 +11,56 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Mr. O Fresh",
+  authors: [
+    {
+      name: "Mr. O Fresh",
+      url: "https://mrofresh.com/",
+    },
+  ],
   icons: ["/logo-nobg.png"],
   description:
-    "Looking to get a nice detail for your car with some TLC? Great! At Mr. O Fresh, our auto detailing packages are a great way to keep your car looking brand new that include a range of services from exterior wash, waxing, interior cleaning, and more. Choose the package that suits your needs and let us care of the rest. Contact us today to schedule an appointment.",
+    "I offer top-tier mobile car detailing services to keep your vehicle looking showroom-fresh. Contact now to get started!",
+  keywords: [
+    "Car detailing near me",
+    "Auto detailing service",
+    "Professional car detailing",
+    "Full-service car detailing",
+    "Mobile car detailing",
+    "Car cleaning services",
+    "Interior car detailing",
+    "Exterior car detailing",
+    "Paint correction service",
+    "Car waxing and polishing",
+    "Ceramic coating for cars",
+    "Headlight restoration",
+    "Auto detailing packages",
+  ],
+  creator: "Mr. O Fresh",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://mrofresh.com/",
+    title: "From Filth to Fresh",
+    description:
+      "I offer top-tier mobile car detailing services to keep your vehicle looking showroom-fresh. Contact now to get started!",
+    siteName: "Mr. O Fresh",
+    images: [
+      {
+        url: "/detailing.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Detailing service near you",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mr. O Fresh",
+    description:
+      "I offer top-tier mobile car detailing services to keep your vehicle looking showroom-fresh. Contact now to get started!",
+    images: [],
+    creator: "Mr. O Fresh",
+  },
 };
 
 export default function RootLayout({
