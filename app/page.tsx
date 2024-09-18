@@ -39,7 +39,7 @@ export default function Home() {
         >
           <h2 className={cn(myFont.className, "text-5xl")}>Special Offers</h2>
           <p>
-            Whether you're an educator, athlete, or new car owner, we have
+            Whether you&apos;re an educator, athlete, or new car owner, we have
             special discounts designed just for you.
           </p>
           <span className="font-medium">
