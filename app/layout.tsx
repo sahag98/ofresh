@@ -3,7 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import { FloatingNavDemo } from "@/components/navbar";
 import Footer from "@/components/footer";
-
+import { Analytics } from "@vercel/analytics/react";
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],
@@ -74,6 +74,7 @@ export default function RootLayout({
         <FloatingNavDemo />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
