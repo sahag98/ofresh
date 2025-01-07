@@ -47,7 +47,7 @@ export default function Home() {
             is required for offer to go into effect. Discounts CANNOT EXCEED
             PAST 20%. Please call for any questions!
           </span>
-          {/* <TracingBeamDemo /> */}
+          <TracingBeamDemo />
         </section>
       </div>
       <AccordionSection />
