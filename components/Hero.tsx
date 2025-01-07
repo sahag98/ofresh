@@ -1,8 +1,6 @@
 import React from "react";
-import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { Calendar, Phone } from "lucide-react";
 import Link from "next/link";
 
@@ -19,7 +17,7 @@ const Hero = () => {
         <h1
           className={cn(
             myFont.className,
-            "lg:text-7xl text-5xl text-center rounded-md px-4 text-primary "
+            "lg:text-7xl text-6xl text-center rounded-md px-4 text-primary "
           )}
         >
           From Filth to Fresh
@@ -28,7 +26,7 @@ const Hero = () => {
           className="font-normal text-center text-base"
           words="From Filth to Fresh, we specialize in all kinds of car detailing services."
         /> */}
-        <p className="text-white text-center w-4/5 lg:w-full text-base md:text-xl">
+        <p className="text-gray-400 text-center w-4/5 lg:w-full  md:text-xl">
           I offer top-tier mobile car detailing services to keep your vehicle
           looking showroom-fresh.
         </p>
