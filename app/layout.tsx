@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     "Headlight restoration",
     "Auto detailing packages",
   ],
+  metadataBase: new URL("https://mrofresh.com/"),
   creator: "Mr. O Fresh",
   openGraph: {
     type: "website",
@@ -52,14 +53,6 @@ export const metadata: Metadata = {
         alt: "Detailing service near you",
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Mr. O Fresh",
-    description:
-      "I offer top-tier mobile car detailing services to keep your vehicle looking showroom-fresh. Contact now to get started!",
-    images: [],
-    creator: "Mr. O Fresh",
   },
 };
 

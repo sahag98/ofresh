@@ -19,7 +19,7 @@ const Hero = () => {
         <h1
           className={cn(
             myFont.className,
-            "lg:text-9xl text-8xl text-center rounded-md px-4 text-primary "
+            "lg:text-7xl text-5xl text-center rounded-md px-4 text-primary "
           )}
         >
           From Filth to Fresh
@@ -28,7 +28,7 @@ const Hero = () => {
           className="font-normal text-center text-base"
           words="From Filth to Fresh, we specialize in all kinds of car detailing services."
         /> */}
-        <p className="text-white text-center w-4/5 lg:w-full text-xl">
+        <p className="text-white text-center w-4/5 lg:w-full text-base md:text-xl">
           I offer top-tier mobile car detailing services to keep your vehicle
           looking showroom-fresh.
         </p>
@@ -47,7 +47,7 @@ const Hero = () => {
             <button className="relative w-full inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-primary px-3 py-1 text-base gap-3 font-bold text-foreground backdrop-blur-3xl">
                 <Phone />
-                Get Your FREE Quote Today
+                FREE Quote
               </span>
             </button>
           </Link>
