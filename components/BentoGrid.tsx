@@ -41,21 +41,21 @@ const items = [
     title: "Regular Vehicle Maintenance",
     description:
       "From clay bar treatments to engine bay cleaning and headlight restoration, I provide comprehensive care that keeps your car in peak condition.",
-    header: <Skeleton image="/detailing.jpg" />,
+    header: <Skeleton image="/engine-bay.jpg" />,
     link: "maintenance",
   },
   {
     title: "Upholstery",
     description:
       "Keep your vehicle's interior fresh with regular vacuuming and fabric protection. I offer leather treatment, pet hair removal, and dashboard cleaning to maintain a pristine look and feel.",
-    header: <Skeleton image="/detailing.jpg" />,
+    header: <Skeleton image="/upholstery.jpg" />,
     link: "upholstery",
   },
   {
     title: "Sanitation",
     description:
       "I offer professional car sanitation services, including steam cleaning, mold removal, biohazard treatments, odor elimination, and more, ensuring your car is spotless and safe.",
-    header: <Skeleton image="/detailing.jpg" />,
+    header: <Skeleton image="/sanitation.jpg" />,
     link: "sanitation",
   },
 ];

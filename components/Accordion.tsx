@@ -80,10 +80,8 @@ const AccordionSection = () => {
         <Image
           alt="faq image"
           src={"/faq.jpg"}
-          placeholder="blur"
-          blurDataURL="/cleaning-blur.jpg"
-          width={1080}
-          height={1080}
+          width={600}
+          height={600}
           className="lg:w-1/2 lg:flex rounded-lg hidden"
         />
       </div>
