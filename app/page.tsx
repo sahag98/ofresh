@@ -22,7 +22,7 @@ export default function Home() {
       <Hero />
       <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
         <About />
-        {/* <Services /> */}
+        <Services />
         <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>
             Detailing Packages Tailored to Your Needs
