@@ -35,9 +35,9 @@ export function TracingBeamDemo() {
               <Image
                 src={item.image}
                 alt="blog thumbnail"
-                height="1000"
-                width="1000"
-                className="rounded-lg  lg:w-1/2 lg:h-1/2 w-11/12 h-11/12"
+                height="600"
+                width="600"
+                className="rounded-lg lg:w-1/2 lg:h-1/2 w-11/12 h-11/12"
               />
             )}
           </div>
