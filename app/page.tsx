@@ -23,7 +23,7 @@ export default function Home() {
       <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
         <About />
         <Services />
-        <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
+        {/* <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>
             Detailing Packages Tailored to Your Needs
           </h2>
@@ -32,7 +32,7 @@ export default function Home() {
             vehicle&apos;s specific needs.
           </p>
           <Packages />
-        </section>
+        </section> */}
         <section
           id="specials"
           className="my-16 mt-40 w-full flex flex-col items-center gap-5"
@@ -50,10 +50,10 @@ export default function Home() {
           <TracingBeamDemo />
         </section>
       </div>
-      <AccordionSection />
+      {/* <AccordionSection />
       <section className="my-5 z-10 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
-      </section>
+      </section> */}
     </main>
   );
 }
