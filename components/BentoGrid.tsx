@@ -22,8 +22,8 @@ export function BentoGridDemo() {
 const Skeleton = ({ image }: { image: string }) => (
   <Image
     src={image}
-    width={1366}
-    height={768}
+    width={600}
+    height={400}
     alt="image of car"
     className="object-cover w-full h-full rounded-xl"
   />

@@ -21,7 +21,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen items-center justify-center">
       <Hero />
       <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
-        {/* <About /> */}
+        <About />
         <Services />
         <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>
