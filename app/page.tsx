@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-center">
       <Hero />
-      {/* <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
-        <About />
+      <div className="flex flex-col w-full lg:px-40 md:px-10 px-4">
+        {/* <About /> */}
         <Services />
         <section className="w-full justify-center flex flex-col my-10 items-center gap-5">
           <h2 className={cn(myFont.className, "text-5xl")}>
@@ -53,7 +53,7 @@ export default function Home() {
       <AccordionSection />
       <section className="my-5 z-10 overflow-hidden w-full flex flex-col items-center gap-5">
         <InfiniteMovingCardsDemo />
-      </section> */}
+      </section>
     </main>
   );
 }
