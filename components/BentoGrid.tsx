@@ -34,28 +34,28 @@ const items = [
     title: "Full Service Auto Detailing (Interior & Exterior)",
     description:
       "Need your ride to look its best for a special occasion or everyday use? I provide luxurious foam baths, thorough interior cleaning, and more.",
-    header: <Skeleton image="/detailing.jpeg" />,
+    header: <Skeleton image="/detailing.jpg" />,
     link: "detail",
   },
   {
     title: "Regular Vehicle Maintenance",
     description:
       "From clay bar treatments to engine bay cleaning and headlight restoration, I provide comprehensive care that keeps your car in peak condition.",
-    header: <Skeleton image="/engine-bay.jpeg" />,
+    header: <Skeleton image="/detailing.jpg" />,
     link: "maintenance",
   },
   {
     title: "Upholstery",
     description:
       "Keep your vehicle's interior fresh with regular vacuuming and fabric protection. I offer leather treatment, pet hair removal, and dashboard cleaning to maintain a pristine look and feel.",
-    header: <Skeleton image="/upholstery.jpeg" />,
+    header: <Skeleton image="/detailing.jpg" />,
     link: "upholstery",
   },
   {
     title: "Sanitation",
     description:
       "I offer professional car sanitation services, including steam cleaning, mold removal, biohazard treatments, odor elimination, and more, ensuring your car is spotless and safe.",
-    header: <Skeleton image="/sanitation.PNG" />,
+    header: <Skeleton image="/detailing.jpg" />,
     link: "sanitation",
   },
 ];
