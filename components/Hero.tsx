@@ -4,10 +4,10 @@ import localFont from "next/font/local";
 import { Calendar, Phone } from "lucide-react";
 import Link from "next/link";
 
-// const myFont = localFont({
-//   src: "../app/quayside-font.otf",
-//   display: "swap",
-// });
+const myFont = localFont({
+  src: "../app/quayside-font.otf",
+  display: "swap",
+});
 
 const Hero = () => {
   return (
@@ -16,6 +16,7 @@ const Hero = () => {
       <div className="flex flex-col z-30 items-center gap-3 justify-center">
         <h1
           className={cn(
+            myFont.className,
             "lg:text-7xl text-6xl text-center rounded-md px-4 text-primary "
           )}
         >
@@ -60,8 +61,8 @@ const Hero = () => {
       <Link href={"mailto:mrofresh@gmail.com"} target="_blank">
         <p
           className={cn(
-            "absolute bottom-20 left-5 z-30 text-white md:text-2xl text-xl"
-            // myFont.className
+            "absolute bottom-20 left-5 z-30 text-gray-400 md:text-lg",
+            myFont.className
           )}
         >
           mrofresh@gmail.com
@@ -69,8 +70,8 @@ const Hero = () => {
       </Link>
       <p
         className={cn(
-          "absolute bottom-20 right-5 z-30 text-white md:text-2xl text-xl"
-          // myFont.className
+          "absolute bottom-20 right-5 z-30 text-gray-400 md:text-lg",
+          myFont.className
         )}
       >
         2 Corinthians 5:17
