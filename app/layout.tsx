@@ -35,6 +35,14 @@ export const metadata: Metadata = {
     "Headlight restoration",
     "Auto detailing packages",
   ],
+  robots: {
+    index: true,
+    follow: true,
+    noarchive: true,
+    nosnippet: true,
+    noimageindex: true,
+    nocache: true,
+  },
   metadataBase: new URL("https://mrofresh.com/"),
   creator: "Mr. O Fresh",
   openGraph: {
